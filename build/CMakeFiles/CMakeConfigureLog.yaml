@@ -1,0 +1,2692 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+    searched_directories:
+      - "/home/alientek/bin/uname"
+      - "/home/alientek/.local/bin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/uname"
+      - "/usr/local/python/python3.8/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/sbin/uname"
+      - "/usr/bin/uname"
+      - "/sbin/uname"
+    found: "/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Linux -  - arm
+      The host system is: Linux - 4.15.0-142-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+    searched_directories:
+      - "/home/alientek/bin/gmake"
+      - "/home/alientek/.local/bin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/gmake"
+      - "/usr/local/python/python3.8/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/sbin/gmake"
+      - "/usr/bin/gmake"
+      - "/sbin/gmake"
+      - "/bin/gmake"
+      - "/usr/games/gmake"
+      - "/usr/local/games/gmake"
+      - "/snap/bin/gmake"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/gmake"
+      - "/home/alientek/bin/make"
+      - "/home/alientek/.local/bin/make"
+      - "/usr/local/bin/make"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/make"
+      - "/usr/local/python/python3.8/bin/make"
+      - "/usr/local/sbin/make"
+      - "/usr/sbin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/"
+    found: "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/alientek/lvgl/lv_port_linux/build/CMakeFiles/4.2.1/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-linux-gnueabihf-ar"
+      - "ar"
+    candidate_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-linux-gnueabihf-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-linux-gnueabihf-strip"
+      - "strip"
+    candidate_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-linux-gnueabihf-ld"
+      - "ld"
+    candidate_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-linux-gnueabihf-nm"
+      - "nm"
+    candidate_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-linux-gnueabihf-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-linux-gnueabihf-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-linux-gnueabihf-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-linux-gnueabihf-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-dlltool"
+      - "/home/alientek/bin/arm-linux-gnueabihf-dlltool"
+      - "/home/alientek/.local/bin/arm-linux-gnueabihf-dlltool"
+      - "/usr/local/bin/arm-linux-gnueabihf-dlltool"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/arm-linux-gnueabihf-dlltool"
+      - "/usr/local/python/python3.8/bin/arm-linux-gnueabihf-dlltool"
+      - "/usr/local/sbin/arm-linux-gnueabihf-dlltool"
+      - "/usr/sbin/arm-linux-gnueabihf-dlltool"
+      - "/usr/bin/arm-linux-gnueabihf-dlltool"
+      - "/sbin/arm-linux-gnueabihf-dlltool"
+      - "/bin/arm-linux-gnueabihf-dlltool"
+      - "/usr/games/arm-linux-gnueabihf-dlltool"
+      - "/usr/local/games/arm-linux-gnueabihf-dlltool"
+      - "/snap/bin/arm-linux-gnueabihf-dlltool"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/dlltool"
+      - "/home/alientek/bin/dlltool"
+      - "/home/alientek/.local/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/dlltool"
+      - "/usr/local/python/python3.8/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-linux-gnueabihf-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-linux-gnueabihf-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-tapi"
+      - "/home/alientek/bin/arm-linux-gnueabihf-tapi"
+      - "/home/alientek/.local/bin/arm-linux-gnueabihf-tapi"
+      - "/usr/local/bin/arm-linux-gnueabihf-tapi"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/arm-linux-gnueabihf-tapi"
+      - "/usr/local/python/python3.8/bin/arm-linux-gnueabihf-tapi"
+      - "/usr/local/sbin/arm-linux-gnueabihf-tapi"
+      - "/usr/sbin/arm-linux-gnueabihf-tapi"
+      - "/usr/bin/arm-linux-gnueabihf-tapi"
+      - "/sbin/arm-linux-gnueabihf-tapi"
+      - "/bin/arm-linux-gnueabihf-tapi"
+      - "/usr/games/arm-linux-gnueabihf-tapi"
+      - "/usr/local/games/arm-linux-gnueabihf-tapi"
+      - "/snap/bin/arm-linux-gnueabihf-tapi"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/tapi"
+      - "/home/alientek/bin/tapi"
+      - "/home/alientek/.local/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/tapi"
+      - "/usr/local/python/python3.8/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-linux-gnueabihf-gcc-ar-7.5"
+      - "arm-linux-gnueabihf-gcc-ar-7"
+      - "arm-linux-gnueabihf-gcc-ar7"
+      - "arm-linux-gnueabihf-gcc-ar"
+    candidate_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/home/alientek/bin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/home/alientek/.local/bin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/usr/local/python/python3.8/bin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/sbin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/bin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/usr/games/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/usr/local/games/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/snap/bin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/home/alientek/bin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/home/alientek/.local/bin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/usr/local/python/python3.8/bin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/sbin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/bin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/usr/games/arm-linux-gnueabihf-gcc-ar-7"
+      - "/usr/local/games/arm-linux-gnueabihf-gcc-ar-7"
+      - "/snap/bin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ar7"
+      - "/home/alientek/bin/arm-linux-gnueabihf-gcc-ar7"
+      - "/home/alientek/.local/bin/arm-linux-gnueabihf-gcc-ar7"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ar7"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/arm-linux-gnueabihf-gcc-ar7"
+      - "/usr/local/python/python3.8/bin/arm-linux-gnueabihf-gcc-ar7"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ar7"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ar7"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ar7"
+      - "/sbin/arm-linux-gnueabihf-gcc-ar7"
+      - "/bin/arm-linux-gnueabihf-gcc-ar7"
+      - "/usr/games/arm-linux-gnueabihf-gcc-ar7"
+      - "/usr/local/games/arm-linux-gnueabihf-gcc-ar7"
+      - "/snap/bin/arm-linux-gnueabihf-gcc-ar7"
+    found: "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "arm-linux-gnueabihf-gcc-ranlib-7"
+      - "arm-linux-gnueabihf-gcc-ranlib7"
+      - "arm-linux-gnueabihf-gcc-ranlib"
+    candidate_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/home/alientek/bin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/home/alientek/.local/bin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/usr/local/python/python3.8/bin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/sbin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/bin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/usr/games/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/usr/local/games/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/snap/bin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/home/alientek/bin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/home/alientek/.local/bin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/usr/local/python/python3.8/bin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/sbin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/bin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/usr/games/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/usr/local/games/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/snap/bin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/home/alientek/bin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/home/alientek/.local/bin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/usr/local/python/python3.8/bin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/sbin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/bin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/usr/games/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/usr/local/games/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/snap/bin/arm-linux-gnueabihf-gcc-ranlib7"
+    found: "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/"
+    found: "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/alientek/lvgl/lv_port_linux/build/CMakeFiles/4.2.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-linux-gnueabihf-gcc-ar-7.5"
+      - "arm-linux-gnueabihf-gcc-ar-7"
+      - "arm-linux-gnueabihf-gcc-ar7"
+      - "arm-linux-gnueabihf-gcc-ar"
+    candidate_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/home/alientek/bin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/home/alientek/.local/bin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/usr/local/python/python3.8/bin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/sbin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/bin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/usr/games/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/usr/local/games/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/snap/bin/arm-linux-gnueabihf-gcc-ar-7.5"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/home/alientek/bin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/home/alientek/.local/bin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/usr/local/python/python3.8/bin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/sbin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/bin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/usr/games/arm-linux-gnueabihf-gcc-ar-7"
+      - "/usr/local/games/arm-linux-gnueabihf-gcc-ar-7"
+      - "/snap/bin/arm-linux-gnueabihf-gcc-ar-7"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ar7"
+      - "/home/alientek/bin/arm-linux-gnueabihf-gcc-ar7"
+      - "/home/alientek/.local/bin/arm-linux-gnueabihf-gcc-ar7"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ar7"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/arm-linux-gnueabihf-gcc-ar7"
+      - "/usr/local/python/python3.8/bin/arm-linux-gnueabihf-gcc-ar7"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ar7"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ar7"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ar7"
+      - "/sbin/arm-linux-gnueabihf-gcc-ar7"
+      - "/bin/arm-linux-gnueabihf-gcc-ar7"
+      - "/usr/games/arm-linux-gnueabihf-gcc-ar7"
+      - "/usr/local/games/arm-linux-gnueabihf-gcc-ar7"
+      - "/snap/bin/arm-linux-gnueabihf-gcc-ar7"
+    found: "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "arm-linux-gnueabihf-gcc-ranlib-7"
+      - "arm-linux-gnueabihf-gcc-ranlib7"
+      - "arm-linux-gnueabihf-gcc-ranlib"
+    candidate_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/home/alientek/bin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/home/alientek/.local/bin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/usr/local/python/python3.8/bin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/sbin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/bin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/usr/games/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/usr/local/games/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/snap/bin/arm-linux-gnueabihf-gcc-ranlib-7.5"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/home/alientek/bin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/home/alientek/.local/bin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/usr/local/python/python3.8/bin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/sbin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/bin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/usr/games/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/usr/local/games/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/snap/bin/arm-linux-gnueabihf-gcc-ranlib-7"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/home/alientek/bin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/home/alientek/.local/bin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/usr/local/python/python3.8/bin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/sbin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/bin/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/usr/games/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/usr/local/games/arm-linux-gnueabihf-gcc-ranlib7"
+      - "/snap/bin/arm-linux-gnueabihf-gcc-ranlib7"
+    found: "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/alientek/lvgl/lv_port_linux/build/CMakeFiles/CMakeScratch/TryCompile-DlMgaJ"
+      binary: "/home/alientek/lvgl/lv_port_linux/build/CMakeFiles/CMakeScratch/TryCompile-DlMgaJ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/alientek/lvgl/lv_port_linux/build/CMakeFiles/CMakeScratch/TryCompile-DlMgaJ'
+        
+        Run Build Command(s): /usr/local/cmake_tools/cmake-4.2.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_de4b6/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_de4b6.dir/build.make CMakeFiles/cmTC_de4b6.dir/build
+        make[1]: Entering directory '/home/alientek/lvgl/lv_port_linux/build/CMakeFiles/CMakeScratch/TryCompile-DlMgaJ'
+        Building C object CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o
+        /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -v -o CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o -c /usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
+        Target: arm-linux-gnueabihf
+        Configured with: '/home/tcwg-buildslave/workspace/tcwg-make-release_1/snapshots/gcc.git~linaro-7.5-2019.12/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Linaro GCC 7.5-2019.12) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+         /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -iprefix /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/ -isysroot /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc /usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv7-a -mtune=cortex-a9 -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o -version -o /tmp/cclF1h3I.s
+        GNU C11 (Linaro GCC 7.5-2019.12) version 7.5.0 (arm-linux-gnueabihf)
+        	compiled by GNU C version 4.8.4, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/7.5.0/include"
+        ignoring nonexistent directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/local/include/arm-linux-gnueabihf"
+        ignoring nonexistent directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/local/include"
+        ignoring duplicate directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/7.5.0/include-fixed"
+        ignoring duplicate directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include"
+        ignoring nonexistent directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/include
+         /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/include-fixed
+         /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include
+         /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include
+        End of search list.
+        GNU C11 (Linaro GCC 7.5-2019.12) version 7.5.0 (arm-linux-gnueabihf)
+        	compiled by GNU C version 4.8.4, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 8fa34e0db50fda66edde212215c67406
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+         /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o /tmp/cclF1h3I.s
+        GNU assembler version 2.28.2 (arm-linux-gnueabihf) using BFD version (Linaro_Binutils-2019.12) 2.28.2.20170706
+        COMPILER_PATH=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/
+        LIBRARY_PATH=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+        Linking C executable cmTC_de4b6
+        /usr/local/cmake_tools/cmake-4.2.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de4b6.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
+        COLLECT_LTO_WRAPPER=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/lto-wrapper
+        Target: arm-linux-gnueabihf
+        Configured with: '/home/tcwg-buildslave/workspace/tcwg-make-release_1/snapshots/gcc.git~linaro-7.5-2019.12/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Linaro GCC 7.5-2019.12) 
+        COMPILER_PATH=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/
+        LIBRARY_PATH=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_de4b6' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+         /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/collect2 -plugin /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/liblto_plugin.so -plugin-opt=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnrWlbM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_de4b6 /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtbegin.o -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0 -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib -v CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtend.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
+        collect2 version 7.5.0
+        /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/ld -plugin /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/liblto_plugin.so -plugin-opt=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnrWlbM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_de4b6 /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtbegin.o -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0 -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib -v CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtend.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
+        GNU ld (Linaro_Binutils-2019.12) 2.28.2.20170706
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_de4b6' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+        /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc  -v -Wl,-v CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o -o cmTC_de4b6
+        make[1]: Leaving directory '/home/alientek/lvgl/lv_port_linux/build/CMakeFiles/CMakeScratch/TryCompile-DlMgaJ'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/include]
+          add: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/include-fixed]
+          add: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include]
+          add: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include]
+        end of search list found
+        collapse include dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/include] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0/include]
+        collapse include dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/include-fixed] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0/include-fixed]
+        collapse include dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/include]
+        collapse include dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include]
+        implicit include dirs: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0/include;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0/include-fixed;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/include;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/alientek/lvgl/lv_port_linux/build/CMakeFiles/CMakeScratch/TryCompile-DlMgaJ']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/cmake_tools/cmake-4.2.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_de4b6/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_de4b6.dir/build.make CMakeFiles/cmTC_de4b6.dir/build]
+        ignore line: [make[1]: Entering directory '/home/alientek/lvgl/lv_port_linux/build/CMakeFiles/CMakeScratch/TryCompile-DlMgaJ']
+        ignore line: [Building C object CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -v -o CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o -c /usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
+        ignore line: [Target: arm-linux-gnueabihf]
+        ignore line: [Configured with: '/home/tcwg-buildslave/workspace/tcwg-make-release_1/snapshots/gcc.git~linaro-7.5-2019.12/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Linaro GCC 7.5-2019.12) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+        ignore line: [ /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -iprefix /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/ -isysroot /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc /usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv7-a -mtune=cortex-a9 -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o -version -o /tmp/cclF1h3I.s]
+        ignore line: [GNU C11 (Linaro GCC 7.5-2019.12) version 7.5.0 (arm-linux-gnueabihf)]
+        ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/7.5.0/include"]
+        ignore line: [ignoring nonexistent directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/local/include/arm-linux-gnueabihf"]
+        ignore line: [ignoring nonexistent directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/7.5.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include"]
+        ignore line: [ignoring nonexistent directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/include]
+        ignore line: [ /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/include-fixed]
+        ignore line: [ /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include]
+        ignore line: [ /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C11 (Linaro GCC 7.5-2019.12) version 7.5.0 (arm-linux-gnueabihf)]
+        ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 8fa34e0db50fda66edde212215c67406]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+        ignore line: [ /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o /tmp/cclF1h3I.s]
+        ignore line: [GNU assembler version 2.28.2 (arm-linux-gnueabihf) using BFD version (Linaro_Binutils-2019.12) 2.28.2.20170706]
+        ignore line: [COMPILER_PATH=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/]
+        ignore line: [LIBRARY_PATH=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+        ignore line: [Linking C executable cmTC_de4b6]
+        ignore line: [/usr/local/cmake_tools/cmake-4.2.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de4b6.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/lto-wrapper]
+        ignore line: [Target: arm-linux-gnueabihf]
+        ignore line: [Configured with: '/home/tcwg-buildslave/workspace/tcwg-make-release_1/snapshots/gcc.git~linaro-7.5-2019.12/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Linaro GCC 7.5-2019.12) ]
+        ignore line: [COMPILER_PATH=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/]
+        ignore line: [LIBRARY_PATH=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_de4b6' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+        link line: [ /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/collect2 -plugin /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/liblto_plugin.so -plugin-opt=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnrWlbM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_de4b6 /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtbegin.o -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0 -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib -v CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtend.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+          arg [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccnrWlbM.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-armhf.so.3] ==> ignore
+          arg [-X] ==> ignore
+          arg [-m] ==> ignore
+          arg [armelf_linux_eabi] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_de4b6] ==> ignore
+          arg [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o] ==> obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o]
+          arg [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o] ==> obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o]
+          arg [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtbegin.o] ==> obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtbegin.o]
+          arg [-L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0] ==> dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0]
+          arg [-L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf]
+          arg [-L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc] ==> dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc]
+          arg [-L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib] ==> dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib]
+          arg [-L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib]
+          arg [-L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtend.o] ==> obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtend.o]
+          arg [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o] ==> obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+        ignore line: [collect2 version 7.5.0]
+        ignore line: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/ld -plugin /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/liblto_plugin.so -plugin-opt=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnrWlbM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_de4b6 /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtbegin.o -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0 -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib -v CMakeFiles/cmTC_de4b6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtend.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+        linker tool for 'C': /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/ld
+        collapse obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib/crt1.o]
+        collapse obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib/crti.o]
+        collapse obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtbegin.o] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0/crtbegin.o]
+        collapse obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtend.o] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0/crtend.o]
+        collapse obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+        collapse library dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0]
+        collapse library dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf]
+        collapse library dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc]
+        collapse library dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/lib]
+        collapse library dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib]
+        collapse library dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib/crt1.o;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib/crti.o;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0/crtbegin.o;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0/crtend.o;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+        implicit dirs: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/lib;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/ld" "-v"
+      GNU ld (Linaro_Binutils-2019.12) 2.28.2.20170706
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/alientek/lvgl/lv_port_linux/build/CMakeFiles/CMakeScratch/TryCompile-DXLtzF"
+      binary: "/home/alientek/lvgl/lv_port_linux/build/CMakeFiles/CMakeScratch/TryCompile-DXLtzF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/alientek/lvgl/lv_port_linux/build/CMakeFiles/CMakeScratch/TryCompile-DXLtzF'
+        
+        Run Build Command(s): /usr/local/cmake_tools/cmake-4.2.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f4d33/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f4d33.dir/build.make CMakeFiles/cmTC_f4d33.dir/build
+        make[1]: Entering directory '/home/alientek/lvgl/lv_port_linux/build/CMakeFiles/CMakeScratch/TryCompile-DXLtzF'
+        Building CXX object CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++   -v -o CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
+        Target: arm-linux-gnueabihf
+        Configured with: '/home/tcwg-buildslave/workspace/tcwg-make-release_1/snapshots/gcc.git~linaro-7.5-2019.12/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Linaro GCC 7.5-2019.12) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+         /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -iprefix /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/ -isysroot /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc -D_GNU_SOURCE /usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv7-a -mtune=cortex-a9 -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccJm4BtO.s
+        GNU C++14 (Linaro GCC 7.5-2019.12) version 7.5.0 (arm-linux-gnueabihf)
+        	compiled by GNU C version 4.8.4, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include/c++/7.5.0"
+        ignoring duplicate directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include/c++/7.5.0/arm-linux-gnueabihf/."
+        ignoring duplicate directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include/c++/7.5.0/backward"
+        ignoring duplicate directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/7.5.0/include"
+        ignoring nonexistent directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/local/include/arm-linux-gnueabihf"
+        ignoring nonexistent directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/local/include"
+        ignoring duplicate directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/7.5.0/include-fixed"
+        ignoring duplicate directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include"
+        ignoring nonexistent directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include/c++/7.5.0
+         /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include/c++/7.5.0/arm-linux-gnueabihf/.
+         /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include/c++/7.5.0/backward
+         /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/include
+         /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/include-fixed
+         /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include
+         /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include
+        End of search list.
+        GNU C++14 (Linaro GCC 7.5-2019.12) version 7.5.0 (arm-linux-gnueabihf)
+        	compiled by GNU C version 4.8.4, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 09c4458dd3b9a3a0ab3c0b9fc8f5d562
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+         /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJm4BtO.s
+        GNU assembler version 2.28.2 (arm-linux-gnueabihf) using BFD version (Linaro_Binutils-2019.12) 2.28.2.20170706
+        COMPILER_PATH=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/
+        LIBRARY_PATH=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+        Linking CXX executable cmTC_f4d33
+        /usr/local/cmake_tools/cmake-4.2.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4d33.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
+        COLLECT_LTO_WRAPPER=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/lto-wrapper
+        Target: arm-linux-gnueabihf
+        Configured with: '/home/tcwg-buildslave/workspace/tcwg-make-release_1/snapshots/gcc.git~linaro-7.5-2019.12/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Linaro GCC 7.5-2019.12) 
+        COMPILER_PATH=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/
+        LIBRARY_PATH=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f4d33' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+         /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/collect2 -plugin /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/liblto_plugin.so -plugin-opt=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5YUsiN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_f4d33 /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtbegin.o -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0 -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib -v CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtend.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
+        collect2 version 7.5.0
+        /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/ld -plugin /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/liblto_plugin.so -plugin-opt=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5YUsiN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_f4d33 /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtbegin.o -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0 -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib -v CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtend.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
+        GNU ld (Linaro_Binutils-2019.12) 2.28.2.20170706
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f4d33' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+        /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++  -v -Wl,-v CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f4d33
+        make[1]: Leaving directory '/home/alientek/lvgl/lv_port_linux/build/CMakeFiles/CMakeScratch/TryCompile-DXLtzF'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include/c++/7.5.0]
+          add: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include/c++/7.5.0/arm-linux-gnueabihf/.]
+          add: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include/c++/7.5.0/backward]
+          add: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/include]
+          add: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/include-fixed]
+          add: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include]
+          add: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include]
+        end of search list found
+        collapse include dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include/c++/7.5.0] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/7.5.0]
+        collapse include dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include/c++/7.5.0/arm-linux-gnueabihf/.] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/7.5.0/arm-linux-gnueabihf]
+        collapse include dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include/c++/7.5.0/backward] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/7.5.0/backward]
+        collapse include dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/include] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0/include]
+        collapse include dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/include-fixed] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0/include-fixed]
+        collapse include dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/include]
+        collapse include dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include]
+        implicit include dirs: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/7.5.0;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/7.5.0/arm-linux-gnueabihf;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/7.5.0/backward;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0/include;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0/include-fixed;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/include;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/alientek/lvgl/lv_port_linux/build/CMakeFiles/CMakeScratch/TryCompile-DXLtzF']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/cmake_tools/cmake-4.2.1/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f4d33/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_f4d33.dir/build.make CMakeFiles/cmTC_f4d33.dir/build]
+        ignore line: [make[1]: Entering directory '/home/alientek/lvgl/lv_port_linux/build/CMakeFiles/CMakeScratch/TryCompile-DXLtzF']
+        ignore line: [Building CXX object CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++   -v -o CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++]
+        ignore line: [Target: arm-linux-gnueabihf]
+        ignore line: [Configured with: '/home/tcwg-buildslave/workspace/tcwg-make-release_1/snapshots/gcc.git~linaro-7.5-2019.12/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Linaro GCC 7.5-2019.12) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+        ignore line: [ /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -iprefix /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/ -isysroot /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc -D_GNU_SOURCE /usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv7-a -mtune=cortex-a9 -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccJm4BtO.s]
+        ignore line: [GNU C++14 (Linaro GCC 7.5-2019.12) version 7.5.0 (arm-linux-gnueabihf)]
+        ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include/c++/7.5.0"]
+        ignore line: [ignoring duplicate directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include/c++/7.5.0/arm-linux-gnueabihf/."]
+        ignore line: [ignoring duplicate directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include/c++/7.5.0/backward"]
+        ignore line: [ignoring duplicate directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/7.5.0/include"]
+        ignore line: [ignoring nonexistent directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/local/include/arm-linux-gnueabihf"]
+        ignore line: [ignoring nonexistent directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/7.5.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include"]
+        ignore line: [ignoring nonexistent directory "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include/c++/7.5.0]
+        ignore line: [ /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include/c++/7.5.0/arm-linux-gnueabihf/.]
+        ignore line: [ /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include/c++/7.5.0/backward]
+        ignore line: [ /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/include]
+        ignore line: [ /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/include-fixed]
+        ignore line: [ /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/include]
+        ignore line: [ /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (Linaro GCC 7.5-2019.12) version 7.5.0 (arm-linux-gnueabihf)]
+        ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 09c4458dd3b9a3a0ab3c0b9fc8f5d562]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+        ignore line: [ /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJm4BtO.s]
+        ignore line: [GNU assembler version 2.28.2 (arm-linux-gnueabihf) using BFD version (Linaro_Binutils-2019.12) 2.28.2.20170706]
+        ignore line: [COMPILER_PATH=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/]
+        ignore line: [LIBRARY_PATH=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+        ignore line: [Linking CXX executable cmTC_f4d33]
+        ignore line: [/usr/local/cmake_tools/cmake-4.2.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4d33.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/lto-wrapper]
+        ignore line: [Target: arm-linux-gnueabihf]
+        ignore line: [Configured with: '/home/tcwg-buildslave/workspace/tcwg-make-release_1/snapshots/gcc.git~linaro-7.5-2019.12/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release_1/_build/builds/destdir/x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Linaro GCC 7.5-2019.12) ]
+        ignore line: [COMPILER_PATH=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/]
+        ignore line: [LIBRARY_PATH=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f4d33' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+        link line: [ /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/collect2 -plugin /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/liblto_plugin.so -plugin-opt=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5YUsiN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_f4d33 /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtbegin.o -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0 -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib -v CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtend.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+          arg [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc5YUsiN.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-armhf.so.3] ==> ignore
+          arg [-X] ==> ignore
+          arg [-m] ==> ignore
+          arg [armelf_linux_eabi] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_f4d33] ==> ignore
+          arg [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o] ==> obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o]
+          arg [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o] ==> obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o]
+          arg [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtbegin.o] ==> obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtbegin.o]
+          arg [-L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0] ==> dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0]
+          arg [-L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf]
+          arg [-L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc] ==> dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc]
+          arg [-L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib] ==> dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib]
+          arg [-L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib]
+          arg [-L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtend.o] ==> obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtend.o]
+          arg [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o] ==> obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+        ignore line: [collect2 version 7.5.0]
+        ignore line: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/ld -plugin /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/liblto_plugin.so -plugin-opt=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5YUsiN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_f4d33 /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtbegin.o -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0 -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib -v CMakeFiles/cmTC_f4d33.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtend.o /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+        linker tool for 'CXX': /usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/ld
+        collapse obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib/crt1.o]
+        collapse obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib/crti.o]
+        collapse obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtbegin.o] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0/crtbegin.o]
+        collapse obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/crtend.o] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0/crtend.o]
+        collapse obj [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+        collapse library dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0]
+        collapse library dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf]
+        collapse library dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc]
+        collapse library dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/lib] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/lib]
+        collapse library dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib]
+        collapse library dir [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib/crt1.o;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib/crti.o;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0/crtbegin.o;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0/crtend.o;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+        implicit dirs: [/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.5.0;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/lib/gcc;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/lib;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib;/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.5.0/../../../../arm-linux-gnueabihf/bin/ld" "-v"
+      GNU ld (Linaro_Binutils-2019.12) 2.28.2.20170706
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineASMCompiler.cmake:61 (_cmake_find_compiler)"
+      - "lvgl/CMakeLists.txt:13 (enable_language)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER"
+    description: "ASM compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"
+    candidate_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+    found: "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineCompilerId.cmake:1290 (message)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "lvgl/CMakeLists.txt:13 (enable_language)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-linux-gnueabihf-gcc (Linaro GCC 7.5-2019.12) 7.5.0
+      Copyright (C) 2017 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "lvgl/CMakeLists.txt:13 (enable_language)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-linux-gnueabihf-gcc-ar-"
+      - "arm-linux-gnueabihf-gcc-ar-"
+      - "arm-linux-gnueabihf-gcc-ar"
+      - "arm-linux-gnueabihf-gcc-ar"
+    candidate_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/bin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/sbin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/home/alientek/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/home/alientek/.local/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/python/python3.8/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/games/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/games/arm-linux-gnueabihf-gcc-ar-"
+      - "/snap/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/arm-linux-gnueabihf-gcc-ar-"
+      - "/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/X11R6/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/X11R6/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/X11R6/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/pkg/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/pkg/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/pkg/arm-linux-gnueabihf-gcc-ar-"
+      - "/opt/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/opt/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/opt/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/home/alientek/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/home/alientek/.local/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/python/python3.8/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/games/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/games/arm-linux-gnueabihf-gcc-ar-"
+      - "/snap/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/local/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/arm-linux-gnueabihf-gcc-ar-"
+      - "/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/X11R6/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/X11R6/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/X11R6/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/pkg/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/pkg/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/usr/pkg/arm-linux-gnueabihf-gcc-ar-"
+      - "/opt/bin/arm-linux-gnueabihf-gcc-ar-"
+      - "/opt/sbin/arm-linux-gnueabihf-gcc-ar-"
+      - "/opt/arm-linux-gnueabihf-gcc-ar-"
+    found: "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "lvgl/CMakeLists.txt:13 (enable_language)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-linux-gnueabihf-gcc-ranlib-"
+      - "arm-linux-gnueabihf-gcc-ranlib-"
+      - "arm-linux-gnueabihf-gcc-ranlib"
+      - "arm-linux-gnueabihf-gcc-ranlib"
+    candidate_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/bin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/sbin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/home/alientek/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/home/alientek/.local/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/python/python3.8/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/games/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/games/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/snap/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/X11R6/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/X11R6/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/X11R6/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/pkg/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/pkg/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/pkg/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/opt/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/opt/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/opt/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/home/alientek/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/home/alientek/.local/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/python/python3.8/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/games/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/games/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/snap/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/local/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/X11R6/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/X11R6/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/X11R6/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/pkg/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/pkg/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/usr/pkg/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/opt/bin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/opt/sbin/arm-linux-gnueabihf-gcc-ranlib-"
+      - "/opt/arm-linux-gnueabihf-gcc-ranlib-"
+    found: "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/FindPython/Support.cmake:2197 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/FindPython.cmake:721 (include)"
+      - "lvgl/env_support/cmake/os_desktop.cmake:53 (find_package)"
+      - "lvgl/CMakeLists.txt:26 (include)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.15mu"
+      - "python3.15m"
+      - "python3.15u"
+      - "python3.15"
+      - "python3.15dmu"
+      - "python3.15dm"
+      - "python3.15du"
+      - "python3.15d"
+      - "python3"
+      - "python"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/FindPython/Support.cmake:2210 (find_program)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/FindPython.cmake:721 (include)"
+      - "lvgl/env_support/cmake/os_desktop.cmake:53 (find_package)"
+      - "lvgl/CMakeLists.txt:26 (include)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.8mu"
+      - "python3.8m"
+      - "python3.8u"
+      - "python3.8"
+      - "python3.8dmu"
+      - "python3.8dm"
+      - "python3.8du"
+      - "python3.8d"
+      - "python3"
+      - "python"
+    candidate_directories:
+      - "/home/alientek/bin/bin/"
+      - "/home/alientek/bin/Scripts/"
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/bin/"
+      - "/home/alientek/.local/bin/Scripts/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/bin/"
+      - "/usr/local/bin/Scripts/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/Scripts/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/bin/"
+      - "/usr/local/python/python3.8/bin/Scripts/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/bin/"
+      - "/usr/local/sbin/Scripts/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/bin/"
+      - "/usr/sbin/Scripts/"
+      - "/usr/sbin/"
+      - "/usr/bin/bin/"
+      - "/usr/bin/Scripts/"
+      - "/usr/bin/"
+      - "/sbin/bin/"
+      - "/sbin/Scripts/"
+      - "/sbin/"
+      - "/bin/bin/"
+      - "/bin/Scripts/"
+      - "/bin/"
+      - "/usr/games/bin/"
+      - "/usr/games/Scripts/"
+      - "/usr/games/"
+      - "/usr/local/games/bin/"
+      - "/usr/local/games/Scripts/"
+      - "/usr/local/games/"
+      - "/snap/bin/bin/"
+      - "/snap/bin/Scripts/"
+      - "/snap/bin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/bin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/Scripts/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/bin/bin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/bin/Scripts/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/bin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/sbin/bin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/sbin/Scripts/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/sbin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/bin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/Scripts/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/"
+      - "/usr/local/bin/bin/"
+      - "/usr/local/bin/Scripts/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/bin/"
+      - "/usr/local/sbin/Scripts/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/Scripts/"
+      - "/usr/local/"
+      - "/usr/bin/bin/"
+      - "/usr/bin/Scripts/"
+      - "/usr/bin/"
+      - "/usr/sbin/bin/"
+      - "/usr/sbin/Scripts/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/usr/Scripts/"
+      - "/usr/"
+      - "/bin/bin/"
+      - "/bin/Scripts/"
+      - "/bin/"
+      - "/sbin/bin/"
+      - "/sbin/Scripts/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/bin/"
+      - "/usr/X11R6/bin/Scripts/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/bin/"
+      - "/usr/X11R6/sbin/Scripts/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/Scripts/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/bin/"
+      - "/usr/pkg/bin/Scripts/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/bin/"
+      - "/usr/pkg/sbin/Scripts/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/Scripts/"
+      - "/usr/pkg/"
+      - "/opt/bin/bin/"
+      - "/opt/bin/Scripts/"
+      - "/opt/bin/"
+      - "/opt/sbin/bin/"
+      - "/opt/sbin/Scripts/"
+      - "/opt/sbin/"
+      - "/opt/bin/"
+      - "/opt/Scripts/"
+      - "/opt/"
+    searched_directories:
+      - "/home/alientek/bin/bin/python3.8mu"
+      - "/home/alientek/bin/bin/python3.8m"
+      - "/home/alientek/bin/bin/python3.8u"
+      - "/home/alientek/bin/bin/python3.8"
+      - "/home/alientek/bin/bin/python3.8dmu"
+      - "/home/alientek/bin/bin/python3.8dm"
+      - "/home/alientek/bin/bin/python3.8du"
+      - "/home/alientek/bin/bin/python3.8d"
+      - "/home/alientek/bin/bin/python3"
+      - "/home/alientek/bin/bin/python"
+      - "/home/alientek/bin/Scripts/python3.8mu"
+      - "/home/alientek/bin/Scripts/python3.8m"
+      - "/home/alientek/bin/Scripts/python3.8u"
+      - "/home/alientek/bin/Scripts/python3.8"
+      - "/home/alientek/bin/Scripts/python3.8dmu"
+      - "/home/alientek/bin/Scripts/python3.8dm"
+      - "/home/alientek/bin/Scripts/python3.8du"
+      - "/home/alientek/bin/Scripts/python3.8d"
+      - "/home/alientek/bin/Scripts/python3"
+      - "/home/alientek/bin/Scripts/python"
+      - "/home/alientek/bin/python3.8mu"
+      - "/home/alientek/bin/python3.8m"
+      - "/home/alientek/bin/python3.8u"
+      - "/home/alientek/bin/python3.8"
+      - "/home/alientek/bin/python3.8dmu"
+      - "/home/alientek/bin/python3.8dm"
+      - "/home/alientek/bin/python3.8du"
+      - "/home/alientek/bin/python3.8d"
+      - "/home/alientek/bin/python3"
+      - "/home/alientek/bin/python"
+      - "/home/alientek/.local/bin/bin/python3.8mu"
+      - "/home/alientek/.local/bin/bin/python3.8m"
+      - "/home/alientek/.local/bin/bin/python3.8u"
+      - "/home/alientek/.local/bin/bin/python3.8"
+      - "/home/alientek/.local/bin/bin/python3.8dmu"
+      - "/home/alientek/.local/bin/bin/python3.8dm"
+      - "/home/alientek/.local/bin/bin/python3.8du"
+      - "/home/alientek/.local/bin/bin/python3.8d"
+      - "/home/alientek/.local/bin/bin/python3"
+      - "/home/alientek/.local/bin/bin/python"
+      - "/home/alientek/.local/bin/Scripts/python3.8mu"
+      - "/home/alientek/.local/bin/Scripts/python3.8m"
+      - "/home/alientek/.local/bin/Scripts/python3.8u"
+      - "/home/alientek/.local/bin/Scripts/python3.8"
+      - "/home/alientek/.local/bin/Scripts/python3.8dmu"
+      - "/home/alientek/.local/bin/Scripts/python3.8dm"
+      - "/home/alientek/.local/bin/Scripts/python3.8du"
+      - "/home/alientek/.local/bin/Scripts/python3.8d"
+      - "/home/alientek/.local/bin/Scripts/python3"
+      - "/home/alientek/.local/bin/Scripts/python"
+      - "/home/alientek/.local/bin/python3.8mu"
+      - "/home/alientek/.local/bin/python3.8m"
+      - "/home/alientek/.local/bin/python3.8u"
+      - "/home/alientek/.local/bin/python3.8"
+      - "/home/alientek/.local/bin/python3.8dmu"
+      - "/home/alientek/.local/bin/python3.8dm"
+      - "/home/alientek/.local/bin/python3.8du"
+      - "/home/alientek/.local/bin/python3.8d"
+      - "/home/alientek/.local/bin/python3"
+      - "/home/alientek/.local/bin/python"
+      - "/usr/local/bin/bin/python3.8mu"
+      - "/usr/local/bin/bin/python3.8m"
+      - "/usr/local/bin/bin/python3.8u"
+      - "/usr/local/bin/bin/python3.8"
+      - "/usr/local/bin/bin/python3.8dmu"
+      - "/usr/local/bin/bin/python3.8dm"
+      - "/usr/local/bin/bin/python3.8du"
+      - "/usr/local/bin/bin/python3.8d"
+      - "/usr/local/bin/bin/python3"
+      - "/usr/local/bin/bin/python"
+      - "/usr/local/bin/Scripts/python3.8mu"
+      - "/usr/local/bin/Scripts/python3.8m"
+      - "/usr/local/bin/Scripts/python3.8u"
+      - "/usr/local/bin/Scripts/python3.8"
+      - "/usr/local/bin/Scripts/python3.8dmu"
+      - "/usr/local/bin/Scripts/python3.8dm"
+      - "/usr/local/bin/Scripts/python3.8du"
+      - "/usr/local/bin/Scripts/python3.8d"
+      - "/usr/local/bin/Scripts/python3"
+      - "/usr/local/bin/Scripts/python"
+      - "/usr/local/bin/python3.8mu"
+      - "/usr/local/bin/python3.8m"
+      - "/usr/local/bin/python3.8u"
+      - "/usr/local/bin/python3.8"
+      - "/usr/local/bin/python3.8dmu"
+      - "/usr/local/bin/python3.8dm"
+      - "/usr/local/bin/python3.8du"
+      - "/usr/local/bin/python3.8d"
+      - "/usr/local/bin/python3"
+      - "/usr/local/bin/python"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/bin/python3.8mu"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/bin/python3.8m"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/bin/python3.8u"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/bin/python3.8"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/bin/python3.8dmu"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/bin/python3.8dm"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/bin/python3.8du"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/bin/python3.8d"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/bin/python3"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/bin/python"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/Scripts/python3.8mu"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/Scripts/python3.8m"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/Scripts/python3.8u"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/Scripts/python3.8"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/Scripts/python3.8dmu"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/Scripts/python3.8dm"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/Scripts/python3.8du"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/Scripts/python3.8d"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/Scripts/python3"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/Scripts/python"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/python3.8mu"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/python3.8m"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/python3.8u"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/python3.8"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/python3.8dmu"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/python3.8dm"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/python3.8du"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/python3.8d"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/python3"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/python"
+      - "/usr/local/python/python3.8/bin/bin/python3.8mu"
+      - "/usr/local/python/python3.8/bin/bin/python3.8m"
+      - "/usr/local/python/python3.8/bin/bin/python3.8u"
+      - "/usr/local/python/python3.8/bin/bin/python3.8"
+      - "/usr/local/python/python3.8/bin/bin/python3.8dmu"
+      - "/usr/local/python/python3.8/bin/bin/python3.8dm"
+      - "/usr/local/python/python3.8/bin/bin/python3.8du"
+      - "/usr/local/python/python3.8/bin/bin/python3.8d"
+      - "/usr/local/python/python3.8/bin/bin/python3"
+      - "/usr/local/python/python3.8/bin/bin/python"
+      - "/usr/local/python/python3.8/bin/Scripts/python3.8mu"
+      - "/usr/local/python/python3.8/bin/Scripts/python3.8m"
+      - "/usr/local/python/python3.8/bin/Scripts/python3.8u"
+      - "/usr/local/python/python3.8/bin/Scripts/python3.8"
+      - "/usr/local/python/python3.8/bin/Scripts/python3.8dmu"
+      - "/usr/local/python/python3.8/bin/Scripts/python3.8dm"
+      - "/usr/local/python/python3.8/bin/Scripts/python3.8du"
+      - "/usr/local/python/python3.8/bin/Scripts/python3.8d"
+      - "/usr/local/python/python3.8/bin/Scripts/python3"
+      - "/usr/local/python/python3.8/bin/Scripts/python"
+      - "/usr/local/python/python3.8/bin/python3.8mu"
+      - "/usr/local/python/python3.8/bin/python3.8m"
+      - "/usr/local/python/python3.8/bin/python3.8u"
+    found: "/usr/local/python/python3.8/bin/python3.8"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "CMakeLists.txt:75 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/home/alientek/bin/"
+      - "/home/alientek/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/"
+      - "/usr/local/python/python3.8/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/bin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/sbin/"
+      - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/alientek/bin/pkg-config"
+      - "/home/alientek/bin/pkgconf"
+      - "/home/alientek/.local/bin/pkg-config"
+      - "/home/alientek/.local/bin/pkgconf"
+      - "/usr/local/bin/pkg-config"
+      - "/usr/local/bin/pkgconf"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/pkg-config"
+      - "/usr/local/cmake_tools/cmake-4.2.1/bin/pkgconf"
+      - "/usr/local/python/python3.8/bin/pkg-config"
+      - "/usr/local/python/python3.8/bin/pkgconf"
+      - "/usr/local/sbin/pkg-config"
+      - "/usr/local/sbin/pkgconf"
+      - "/usr/sbin/pkg-config"
+      - "/usr/sbin/pkgconf"
+    found: "/usr/bin/pkg-config"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/local/cmake_tools/cmake-4.2.1/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:76 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_EVDEV_evdev"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "evdev"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libevdev.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/alientek/bin"
+        - "/home/alientek/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/local/cmake_tools/cmake-4.2.1/bin"
+        - "/usr/local/python/python3.8/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+...

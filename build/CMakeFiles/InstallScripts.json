@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/alientek/lvgl/lv_port_linux/build/cmake_install.cmake",
+		"/home/alientek/lvgl/lv_port_linux/build/lvgl/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
