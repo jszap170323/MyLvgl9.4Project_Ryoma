@@ -74,4 +74,5 @@ add_executable(multimedia ${SOURCES})
 # 添加到add_executable之后
 target_link_libraries(multimedia
 		${GST_LIBRARIES} 
+    communication
 )

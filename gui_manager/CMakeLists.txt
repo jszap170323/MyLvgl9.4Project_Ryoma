@@ -373,6 +373,8 @@ add_executable(lvglsim ${SOURCE_FILES})
 
 # Repeat lvgl_linux to resolve circular dependency with lvgl
 target_link_libraries(lvglsim lvgl_linux lvgl lvgl_linux)
+# 链接 communication 库
+target_link_libraries(lvglsim PRIVATE communication)
 
 if(WERROR)
     target_compile_options(lvglsim PRIVATE -Werror)
