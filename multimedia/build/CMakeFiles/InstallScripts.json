@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

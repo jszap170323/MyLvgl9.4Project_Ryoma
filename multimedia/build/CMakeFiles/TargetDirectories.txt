@@ -1,0 +1,3 @@
+/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/build/CMakeFiles/multimedia.dir
+/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/build/CMakeFiles/edit_cache.dir
+/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/build/CMakeFiles/rebuild_cache.dir
