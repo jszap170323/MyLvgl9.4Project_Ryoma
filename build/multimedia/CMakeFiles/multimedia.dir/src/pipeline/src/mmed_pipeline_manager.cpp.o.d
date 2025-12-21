@@ -353,4 +353,7 @@ multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/ctime \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/bits/parse_numbers.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/functional \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/typeinfo
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/typeinfo \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/common/inc/lock.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/semaphore.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/semaphore.h

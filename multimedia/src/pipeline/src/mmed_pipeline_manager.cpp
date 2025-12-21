@@ -19,7 +19,7 @@ static GstFlowReturn on_new_sample(GstAppSink* sink, gpointer user_data)
         // map.data  → 像素指针
         // map.size  → 字节数
 
-//		std::cout << "map.size = " << map.size << std::endl;
+		std::cout << "map.size = " << map.size << std::endl;
         shm->write(map.data, map.size);
 
         gst_buffer_unmap(buffer, &map);

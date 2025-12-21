@@ -21,6 +21,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/common/inc"
   "/usr/include/libevdev-1.0"
   "."
   "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl"

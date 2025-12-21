@@ -4,7 +4,7 @@
 # compile CXX with /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/inc
+CXX_INCLUDES = -I/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/common/inc -I/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/inc
 
 CXX_FLAGS = -march=armv7ve -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a7 -std=gnu++1z
 

@@ -3,6 +3,7 @@
 
 multimedia/CMakeFiles/multimedia.dir/src/main.cpp.o
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/main.cpp
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/common/inc/lock.h
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/inc/ipc_shared_memory.h
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/pipeline/inc/mmed_pipeline_manager.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/_G_config.h
@@ -30,6 +31,7 @@ multimedia/CMakeFiles/multimedia.dir/src/main.cpp.o
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/pthreadtypes.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/sched.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/select.h
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/semaphore.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/setjmp.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/sigaction.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/sigcontext.h
@@ -329,6 +331,7 @@ multimedia/CMakeFiles/multimedia.dir/src/main.cpp.o
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/locale.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/pthread.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/sched.h
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/semaphore.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/signal.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/stdc-predef.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/stdint.h
@@ -358,6 +361,7 @@ multimedia/CMakeFiles/multimedia.dir/src/main.cpp.o
 
 multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.o
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/pipeline/src/mmed_pipeline_manager.cpp
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/common/inc/lock.h
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/inc/ipc_shared_memory.h
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/pipeline/inc/mmed_pipeline_manager.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/_G_config.h
@@ -385,6 +389,7 @@ multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/pthreadtypes.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/sched.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/select.h
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/semaphore.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/setjmp.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/sigaction.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/sigcontext.h
@@ -684,6 +689,7 @@ multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/locale.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/pthread.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/sched.h
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/semaphore.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/signal.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/stdc-predef.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/stdint.h

@@ -217,7 +217,7 @@ communication/CMakeFiles/communication.dir/clean:
 gui_manager/CMakeFiles/lvgl_linux.dir/all:
 	$(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvgl_linux.dir/build.make gui_manager/CMakeFiles/lvgl_linux.dir/depend
 	$(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvgl_linux.dir/build.make gui_manager/CMakeFiles/lvgl_linux.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=94 "Built target lvgl_linux"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=93 "Built target lvgl_linux"
 .PHONY : gui_manager/CMakeFiles/lvgl_linux.dir/all
 
 # Build rule for subdir invocation for target.
@@ -234,7 +234,7 @@ lvgl_linux: gui_manager/CMakeFiles/lvgl_linux.dir/rule
 # codegen rule for target.
 gui_manager/CMakeFiles/lvgl_linux.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvgl_linux.dir/build.make gui_manager/CMakeFiles/lvgl_linux.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=94 "Finished codegen for target lvgl_linux"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=93 "Finished codegen for target lvgl_linux"
 .PHONY : gui_manager/CMakeFiles/lvgl_linux.dir/codegen
 
 # clean rule for target.
@@ -251,7 +251,7 @@ gui_manager/CMakeFiles/lvglsim.dir/all: gui_manager/CMakeFiles/lvgl_linux.dir/al
 gui_manager/CMakeFiles/lvglsim.dir/all: gui_manager/lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/depend
 	$(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num= "Built target lvglsim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=99 "Built target lvglsim"
 .PHONY : gui_manager/CMakeFiles/lvglsim.dir/all
 
 # Build rule for subdir invocation for target.
@@ -268,7 +268,7 @@ lvglsim: gui_manager/CMakeFiles/lvglsim.dir/rule
 # codegen rule for target.
 gui_manager/CMakeFiles/lvglsim.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num= "Finished codegen for target lvglsim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=99 "Finished codegen for target lvglsim"
 .PHONY : gui_manager/CMakeFiles/lvglsim.dir/codegen
 
 # clean rule for target.
@@ -315,12 +315,12 @@ gui_manager/CMakeFiles/run.dir/clean:
 gui_manager/lvgl/CMakeFiles/lvgl.dir/all: gui_manager/lvgl/CMakeFiles/lvgl_thorvg.dir/all
 	$(MAKE) $(MAKESILENT) -f gui_manager/lvgl/CMakeFiles/lvgl.dir/build.make gui_manager/lvgl/CMakeFiles/lvgl.dir/depend
 	$(MAKE) $(MAKESILENT) -f gui_manager/lvgl/CMakeFiles/lvgl.dir/build.make gui_manager/lvgl/CMakeFiles/lvgl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57 "Built target lvgl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56 "Built target lvgl"
 .PHONY : gui_manager/lvgl/CMakeFiles/lvgl.dir/all
 
 # Build rule for subdir invocation for target.
 gui_manager/lvgl/CMakeFiles/lvgl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles 98
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles 97
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gui_manager/lvgl/CMakeFiles/lvgl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles 0
 .PHONY : gui_manager/lvgl/CMakeFiles/lvgl.dir/rule
@@ -332,7 +332,7 @@ lvgl: gui_manager/lvgl/CMakeFiles/lvgl.dir/rule
 # codegen rule for target.
 gui_manager/lvgl/CMakeFiles/lvgl.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f gui_manager/lvgl/CMakeFiles/lvgl.dir/build.make gui_manager/lvgl/CMakeFiles/lvgl.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57 "Finished codegen for target lvgl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56 "Finished codegen for target lvgl"
 .PHONY : gui_manager/lvgl/CMakeFiles/lvgl.dir/codegen
 
 # clean rule for target.
@@ -347,7 +347,7 @@ gui_manager/lvgl/CMakeFiles/lvgl.dir/clean:
 gui_manager/lvgl/CMakeFiles/lvgl_thorvg.dir/all: gui_manager/lvgl/CMakeFiles/lvgl_examples.dir/all
 	$(MAKE) $(MAKESILENT) -f gui_manager/lvgl/CMakeFiles/lvgl_thorvg.dir/build.make gui_manager/lvgl/CMakeFiles/lvgl_thorvg.dir/depend
 	$(MAKE) $(MAKESILENT) -f gui_manager/lvgl/CMakeFiles/lvgl_thorvg.dir/build.make gui_manager/lvgl/CMakeFiles/lvgl_thorvg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=95,96,97,98,99 "Built target lvgl_thorvg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=94,95,96,97,98 "Built target lvgl_thorvg"
 .PHONY : gui_manager/lvgl/CMakeFiles/lvgl_thorvg.dir/all
 
 # Build rule for subdir invocation for target.
@@ -364,7 +364,7 @@ lvgl_thorvg: gui_manager/lvgl/CMakeFiles/lvgl_thorvg.dir/rule
 # codegen rule for target.
 gui_manager/lvgl/CMakeFiles/lvgl_thorvg.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f gui_manager/lvgl/CMakeFiles/lvgl_thorvg.dir/build.make gui_manager/lvgl/CMakeFiles/lvgl_thorvg.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=95,96,97,98,99 "Finished codegen for target lvgl_thorvg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=94,95,96,97,98 "Finished codegen for target lvgl_thorvg"
 .PHONY : gui_manager/lvgl/CMakeFiles/lvgl_thorvg.dir/codegen
 
 # clean rule for target.
@@ -379,7 +379,7 @@ gui_manager/lvgl/CMakeFiles/lvgl_thorvg.dir/clean:
 gui_manager/lvgl/CMakeFiles/lvgl_examples.dir/all: gui_manager/lvgl/CMakeFiles/lvgl_demos.dir/all
 	$(MAKE) $(MAKESILENT) -f gui_manager/lvgl/CMakeFiles/lvgl_examples.dir/build.make gui_manager/lvgl/CMakeFiles/lvgl_examples.dir/depend
 	$(MAKE) $(MAKESILENT) -f gui_manager/lvgl/CMakeFiles/lvgl_examples.dir/build.make gui_manager/lvgl/CMakeFiles/lvgl_examples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93 "Built target lvgl_examples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92 "Built target lvgl_examples"
 .PHONY : gui_manager/lvgl/CMakeFiles/lvgl_examples.dir/all
 
 # Build rule for subdir invocation for target.
@@ -396,7 +396,7 @@ lvgl_examples: gui_manager/lvgl/CMakeFiles/lvgl_examples.dir/rule
 # codegen rule for target.
 gui_manager/lvgl/CMakeFiles/lvgl_examples.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f gui_manager/lvgl/CMakeFiles/lvgl_examples.dir/build.make gui_manager/lvgl/CMakeFiles/lvgl_examples.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93 "Finished codegen for target lvgl_examples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92 "Finished codegen for target lvgl_examples"
 .PHONY : gui_manager/lvgl/CMakeFiles/lvgl_examples.dir/codegen
 
 # clean rule for target.
@@ -411,7 +411,7 @@ gui_manager/lvgl/CMakeFiles/lvgl_examples.dir/clean:
 gui_manager/lvgl/CMakeFiles/lvgl_demos.dir/all:
 	$(MAKE) $(MAKESILENT) -f gui_manager/lvgl/CMakeFiles/lvgl_demos.dir/build.make gui_manager/lvgl/CMakeFiles/lvgl_demos.dir/depend
 	$(MAKE) $(MAKESILENT) -f gui_manager/lvgl/CMakeFiles/lvgl_demos.dir/build.make gui_manager/lvgl/CMakeFiles/lvgl_demos.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=58,59,60,61,62,63,64,65,66 "Built target lvgl_demos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65 "Built target lvgl_demos"
 .PHONY : gui_manager/lvgl/CMakeFiles/lvgl_demos.dir/all
 
 # Build rule for subdir invocation for target.
@@ -428,7 +428,7 @@ lvgl_demos: gui_manager/lvgl/CMakeFiles/lvgl_demos.dir/rule
 # codegen rule for target.
 gui_manager/lvgl/CMakeFiles/lvgl_demos.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f gui_manager/lvgl/CMakeFiles/lvgl_demos.dir/build.make gui_manager/lvgl/CMakeFiles/lvgl_demos.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=58,59,60,61,62,63,64,65,66 "Finished codegen for target lvgl_demos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65 "Finished codegen for target lvgl_demos"
 .PHONY : gui_manager/lvgl/CMakeFiles/lvgl_demos.dir/codegen
 
 # clean rule for target.

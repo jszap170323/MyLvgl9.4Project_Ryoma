@@ -45,16 +45,28 @@ IpcSharedMemory::~IpcSharedMemory()
 
 bool IpcSharedMemory::write(const void* data, size_t size, size_t offset)
 {
+	printf("===========write &m_write = %0x,&m_read = %0x",&m_write,&m_read);
     if (!shm_ptr_ || offset + size > size_) return false;
+	printf("==============write before");
+	m_write.wait();
+	printf("==============write after");
     std::lock_guard<std::mutex> lock(mtx_);
     memcpy(static_cast<uint8_t*>(shm_ptr_) + offset, data, size);
+	m_read.post();
+	printf("==============read post");
     return true;
 }
 
 bool IpcSharedMemory::read(void* data, size_t size, size_t offset)
 {
+	printf("===========read &m_write = %0x,&m_read = %0x",&m_write,&m_read);
     if (!shm_ptr_ || offset + size > size_) return false;
+	printf("==============read before");
+	m_read.wait();
+	printf("==============read after");
     std::lock_guard<std::mutex> lock(mtx_);
     memcpy(data, static_cast<uint8_t*>(shm_ptr_) + offset, size);
+	m_write.post();
+	printf("==============write post");
     return true;
 }

@@ -9,6 +9,7 @@
 #include <unistd.h>
 #include <cstring>
 #include <mutex>
+#include "lock.h"
 
 class IpcSharedMemory {
 public:
@@ -28,6 +29,8 @@ private:
     void* shm_ptr_;
     bool owner_; // 是否创建者
     std::mutex mtx_; // 线程内安全
+	sem m_read{"/shared_memory_read_sem",0};
+	sem m_write{"/shared_memory_write_sem",1};
 };
 
 #endif /* _IPC_SHARED_MEMORY_H */

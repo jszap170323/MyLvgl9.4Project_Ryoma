@@ -1,5 +1,5 @@
-gui_manager/CMakeFiles/lvglsim.dir/src/main.c.o: \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/main.c \
+gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o: \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/fbdev.c \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/stdc-predef.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/unistd.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/features.h \
@@ -14,36 +14,24 @@ gui_manager/CMakeFiles/lvglsim.dir/src/main.c.o: \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include/stddef.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/confname.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/getopt.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/pthread.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/stdlib.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/waitflags.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/waitstatus.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/endian.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/endian.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/byteswap.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/byteswap-16.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/sched.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/time.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/sched.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/time.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/xlocale.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/pthreadtypes.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/setjmp.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/stdio.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/libio.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/_G_config.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/wchar.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include/stdarg.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/stdio_lim.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/sys_errlist.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/stdlib.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/waitflags.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/waitstatus.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/sys/types.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/time.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/sys/select.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/select.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/sigset.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/time.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/sys/sysmacros.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/pthreadtypes.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/alloca.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/stdlib-float.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/string.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include/stdbool.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/lvgl.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/lv_version.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/src/lv_init.h \
@@ -54,7 +42,6 @@ gui_manager/CMakeFiles/lvglsim.dir/src/main.c.o: \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include/stdint.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/stdint.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/wchar.h \
- /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include/stdbool.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/inttypes.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include-fixed/limits.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include-fixed/syslimits.h \
@@ -63,6 +50,7 @@ gui_manager/CMakeFiles/lvglsim.dir/src/main.c.o: \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/local_lim.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/linux/limits.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/posix2_lim.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include/stdarg.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/src/stdlib/lv_mem.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/src/stdlib/../lv_conf_internal.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/src/stdlib/lv_string.h \
@@ -506,23 +494,5 @@ gui_manager/CMakeFiles/lvglsim.dir/src/main.c.o: \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/src/lv_api_map_v9_2.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/src/lv_api_map_v9_3.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/src/lv_api_map_v9_4.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos/lv_demos.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos/../lvgl.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos/benchmark/lv_demo_benchmark.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos/benchmark/../lv_demos.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos/keypad_encoder/../lv_demos.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos/music/lv_demo_music.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos/music/../lv_demos.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos/stress/lv_demo_stress.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos/stress/../lv_demos.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos/widgets/lv_demo_widgets.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos/widgets/../lv_demos.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos/widgets/../../src/draw/lv_draw.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos/widgets/../../src/draw/lv_draw_triangle.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos/render/lv_demo_render.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos/render/../lv_demos.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/driver_backends.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/simulator_util.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/simulator_settings.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/src/drivers/evdev/lv_evdev.h
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/../simulator_util.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/../backends.h

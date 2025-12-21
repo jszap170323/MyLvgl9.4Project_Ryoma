@@ -1,11 +1,35 @@
 file(REMOVE_RECURSE
   "../bin/lvglsim"
   "../bin/lvglsim.pdb"
+  "CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.o"
+  "CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.o.d"
+  "CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o"
+  "CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o.d"
+  "CMakeFiles/lvglsim.dir/src/lib/display_backends/glfw3.c.o"
+  "CMakeFiles/lvglsim.dir/src/lib/display_backends/glfw3.c.o.d"
+  "CMakeFiles/lvglsim.dir/src/lib/display_backends/sdl.c.o"
+  "CMakeFiles/lvglsim.dir/src/lib/display_backends/sdl.c.o.d"
+  "CMakeFiles/lvglsim.dir/src/lib/display_backends/wayland.c.o"
+  "CMakeFiles/lvglsim.dir/src/lib/display_backends/wayland.c.o.d"
+  "CMakeFiles/lvglsim.dir/src/lib/display_backends/x11.c.o"
+  "CMakeFiles/lvglsim.dir/src/lib/display_backends/x11.c.o.d"
+  "CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.o"
+  "CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.o.d"
+  "CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.o"
+  "CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.o.d"
+  "CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o"
+  "CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o.d"
+  "CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o"
+  "CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o.d"
+  "CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controller.cpp.o"
+  "CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controller.cpp.o.d"
+  "CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.o"
+  "CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.o.d"
   "CMakeFiles/lvglsim.dir/src/main.cpp.o"
   "CMakeFiles/lvglsim.dir/src/main.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C CXX)
   include(CMakeFiles/lvglsim.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

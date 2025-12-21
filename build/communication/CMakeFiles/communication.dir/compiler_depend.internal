@@ -3,6 +3,7 @@
 
 communication/CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/src/ipc_shared_memory.cpp
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/common/inc/lock.h
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/inc/ipc_shared_memory.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/_G_config.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/alloca.h
@@ -24,6 +25,7 @@ communication/CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/pthreadtypes.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/sched.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/select.h
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/semaphore.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/setjmp.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/sigset.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/stat.h
@@ -147,6 +149,7 @@ communication/CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/locale.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/pthread.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/sched.h
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/semaphore.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/stdc-predef.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/stdint.h
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/stdio.h

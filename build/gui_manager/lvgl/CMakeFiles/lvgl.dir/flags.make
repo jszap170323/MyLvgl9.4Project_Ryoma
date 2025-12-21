@@ -6,19 +6,19 @@
 # compile CXX with /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++
 ASM_DEFINES = -DLV_CONF_PATH=\"/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/lv_conf.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
 
-ASM_INCLUDES = -I/usr/include/libevdev-1.0 -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager/lvgl -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/examples -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos
+ASM_INCLUDES = -I/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/common/inc -I/usr/include/libevdev-1.0 -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager/lvgl -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/examples -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos
 
 ASM_FLAGS = 
 
 C_DEFINES = -DLV_CONF_PATH=\"/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/lv_conf.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
 
-C_INCLUDES = -I/usr/include/libevdev-1.0 -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager/lvgl -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/examples -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos
+C_INCLUDES = -I/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/common/inc -I/usr/include/libevdev-1.0 -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager/lvgl -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/examples -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos
 
 C_FLAGS = -march=armv7ve -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a7 -Wall -Wextra -Wpedantic -std=gnu99
 
 CXX_DEFINES = -DLV_CONF_PATH=\"/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/lv_conf.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
 
-CXX_INCLUDES = -I/usr/include/libevdev-1.0 -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager/lvgl -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/examples -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos
+CXX_INCLUDES = -I/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/common/inc -I/usr/include/libevdev-1.0 -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager/lvgl -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/examples -isystem /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos
 
 CXX_FLAGS = -march=armv7ve -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a7 -std=gnu++1z
 

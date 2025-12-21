@@ -203,12 +203,37 @@ run/fast:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/run.dir/build.make gui_manager/CMakeFiles/run.dir/build
 .PHONY : run/fast
 
+src/lib/display_backends/drm.o: src/lib/display_backends/drm.c.o
+.PHONY : src/lib/display_backends/drm.o
+
+# target to build an object file
+src/lib/display_backends/drm.c.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.o
+.PHONY : src/lib/display_backends/drm.c.o
+
+src/lib/display_backends/drm.i: src/lib/display_backends/drm.c.i
+.PHONY : src/lib/display_backends/drm.i
+
+# target to preprocess a source file
+src/lib/display_backends/drm.c.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.i
+.PHONY : src/lib/display_backends/drm.c.i
+
+src/lib/display_backends/drm.s: src/lib/display_backends/drm.c.s
+.PHONY : src/lib/display_backends/drm.s
+
+# target to generate assembly for a file
+src/lib/display_backends/drm.c.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.s
+.PHONY : src/lib/display_backends/drm.c.s
+
 src/lib/display_backends/fbdev.o: src/lib/display_backends/fbdev.c.o
 .PHONY : src/lib/display_backends/fbdev.o
 
 # target to build an object file
 src/lib/display_backends/fbdev.c.o:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvgl_linux.dir/build.make gui_manager/CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.o
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o
 .PHONY : src/lib/display_backends/fbdev.c.o
 
 src/lib/display_backends/fbdev.i: src/lib/display_backends/fbdev.c.i
@@ -217,6 +242,7 @@ src/lib/display_backends/fbdev.i: src/lib/display_backends/fbdev.c.i
 # target to preprocess a source file
 src/lib/display_backends/fbdev.c.i:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvgl_linux.dir/build.make gui_manager/CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.i
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.i
 .PHONY : src/lib/display_backends/fbdev.c.i
 
 src/lib/display_backends/fbdev.s: src/lib/display_backends/fbdev.c.s
@@ -225,7 +251,104 @@ src/lib/display_backends/fbdev.s: src/lib/display_backends/fbdev.c.s
 # target to generate assembly for a file
 src/lib/display_backends/fbdev.c.s:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvgl_linux.dir/build.make gui_manager/CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.s
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.s
 .PHONY : src/lib/display_backends/fbdev.c.s
+
+src/lib/display_backends/glfw3.o: src/lib/display_backends/glfw3.c.o
+.PHONY : src/lib/display_backends/glfw3.o
+
+# target to build an object file
+src/lib/display_backends/glfw3.c.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/glfw3.c.o
+.PHONY : src/lib/display_backends/glfw3.c.o
+
+src/lib/display_backends/glfw3.i: src/lib/display_backends/glfw3.c.i
+.PHONY : src/lib/display_backends/glfw3.i
+
+# target to preprocess a source file
+src/lib/display_backends/glfw3.c.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/glfw3.c.i
+.PHONY : src/lib/display_backends/glfw3.c.i
+
+src/lib/display_backends/glfw3.s: src/lib/display_backends/glfw3.c.s
+.PHONY : src/lib/display_backends/glfw3.s
+
+# target to generate assembly for a file
+src/lib/display_backends/glfw3.c.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/glfw3.c.s
+.PHONY : src/lib/display_backends/glfw3.c.s
+
+src/lib/display_backends/sdl.o: src/lib/display_backends/sdl.c.o
+.PHONY : src/lib/display_backends/sdl.o
+
+# target to build an object file
+src/lib/display_backends/sdl.c.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/sdl.c.o
+.PHONY : src/lib/display_backends/sdl.c.o
+
+src/lib/display_backends/sdl.i: src/lib/display_backends/sdl.c.i
+.PHONY : src/lib/display_backends/sdl.i
+
+# target to preprocess a source file
+src/lib/display_backends/sdl.c.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/sdl.c.i
+.PHONY : src/lib/display_backends/sdl.c.i
+
+src/lib/display_backends/sdl.s: src/lib/display_backends/sdl.c.s
+.PHONY : src/lib/display_backends/sdl.s
+
+# target to generate assembly for a file
+src/lib/display_backends/sdl.c.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/sdl.c.s
+.PHONY : src/lib/display_backends/sdl.c.s
+
+src/lib/display_backends/wayland.o: src/lib/display_backends/wayland.c.o
+.PHONY : src/lib/display_backends/wayland.o
+
+# target to build an object file
+src/lib/display_backends/wayland.c.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/wayland.c.o
+.PHONY : src/lib/display_backends/wayland.c.o
+
+src/lib/display_backends/wayland.i: src/lib/display_backends/wayland.c.i
+.PHONY : src/lib/display_backends/wayland.i
+
+# target to preprocess a source file
+src/lib/display_backends/wayland.c.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/wayland.c.i
+.PHONY : src/lib/display_backends/wayland.c.i
+
+src/lib/display_backends/wayland.s: src/lib/display_backends/wayland.c.s
+.PHONY : src/lib/display_backends/wayland.s
+
+# target to generate assembly for a file
+src/lib/display_backends/wayland.c.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/wayland.c.s
+.PHONY : src/lib/display_backends/wayland.c.s
+
+src/lib/display_backends/x11.o: src/lib/display_backends/x11.c.o
+.PHONY : src/lib/display_backends/x11.o
+
+# target to build an object file
+src/lib/display_backends/x11.c.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/x11.c.o
+.PHONY : src/lib/display_backends/x11.c.o
+
+src/lib/display_backends/x11.i: src/lib/display_backends/x11.c.i
+.PHONY : src/lib/display_backends/x11.i
+
+# target to preprocess a source file
+src/lib/display_backends/x11.c.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/x11.c.i
+.PHONY : src/lib/display_backends/x11.c.i
+
+src/lib/display_backends/x11.s: src/lib/display_backends/x11.c.s
+.PHONY : src/lib/display_backends/x11.s
+
+# target to generate assembly for a file
+src/lib/display_backends/x11.c.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/x11.c.s
+.PHONY : src/lib/display_backends/x11.c.s
 
 src/lib/driver_backends.o: src/lib/driver_backends.c.o
 .PHONY : src/lib/driver_backends.o
@@ -233,6 +356,7 @@ src/lib/driver_backends.o: src/lib/driver_backends.c.o
 # target to build an object file
 src/lib/driver_backends.c.o:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvgl_linux.dir/build.make gui_manager/CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.o
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.o
 .PHONY : src/lib/driver_backends.c.o
 
 src/lib/driver_backends.i: src/lib/driver_backends.c.i
@@ -241,6 +365,7 @@ src/lib/driver_backends.i: src/lib/driver_backends.c.i
 # target to preprocess a source file
 src/lib/driver_backends.c.i:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvgl_linux.dir/build.make gui_manager/CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.i
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.i
 .PHONY : src/lib/driver_backends.c.i
 
 src/lib/driver_backends.s: src/lib/driver_backends.c.s
@@ -249,6 +374,7 @@ src/lib/driver_backends.s: src/lib/driver_backends.c.s
 # target to generate assembly for a file
 src/lib/driver_backends.c.s:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvgl_linux.dir/build.make gui_manager/CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.s
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.s
 .PHONY : src/lib/driver_backends.c.s
 
 src/lib/indev_backends/evdev.o: src/lib/indev_backends/evdev.c.o
@@ -257,6 +383,7 @@ src/lib/indev_backends/evdev.o: src/lib/indev_backends/evdev.c.o
 # target to build an object file
 src/lib/indev_backends/evdev.c.o:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvgl_linux.dir/build.make gui_manager/CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.o
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.o
 .PHONY : src/lib/indev_backends/evdev.c.o
 
 src/lib/indev_backends/evdev.i: src/lib/indev_backends/evdev.c.i
@@ -265,6 +392,7 @@ src/lib/indev_backends/evdev.i: src/lib/indev_backends/evdev.c.i
 # target to preprocess a source file
 src/lib/indev_backends/evdev.c.i:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvgl_linux.dir/build.make gui_manager/CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.i
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.i
 .PHONY : src/lib/indev_backends/evdev.c.i
 
 src/lib/indev_backends/evdev.s: src/lib/indev_backends/evdev.c.s
@@ -273,6 +401,7 @@ src/lib/indev_backends/evdev.s: src/lib/indev_backends/evdev.c.s
 # target to generate assembly for a file
 src/lib/indev_backends/evdev.c.s:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvgl_linux.dir/build.make gui_manager/CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.s
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.s
 .PHONY : src/lib/indev_backends/evdev.c.s
 
 src/lib/mouse_cursor_icon.o: src/lib/mouse_cursor_icon.c.o
@@ -281,6 +410,7 @@ src/lib/mouse_cursor_icon.o: src/lib/mouse_cursor_icon.c.o
 # target to build an object file
 src/lib/mouse_cursor_icon.c.o:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvgl_linux.dir/build.make gui_manager/CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.o
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o
 .PHONY : src/lib/mouse_cursor_icon.c.o
 
 src/lib/mouse_cursor_icon.i: src/lib/mouse_cursor_icon.c.i
@@ -289,6 +419,7 @@ src/lib/mouse_cursor_icon.i: src/lib/mouse_cursor_icon.c.i
 # target to preprocess a source file
 src/lib/mouse_cursor_icon.c.i:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvgl_linux.dir/build.make gui_manager/CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.i
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.i
 .PHONY : src/lib/mouse_cursor_icon.c.i
 
 src/lib/mouse_cursor_icon.s: src/lib/mouse_cursor_icon.c.s
@@ -297,6 +428,7 @@ src/lib/mouse_cursor_icon.s: src/lib/mouse_cursor_icon.c.s
 # target to generate assembly for a file
 src/lib/mouse_cursor_icon.c.s:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvgl_linux.dir/build.make gui_manager/CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.s
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.s
 .PHONY : src/lib/mouse_cursor_icon.c.s
 
 src/lib/simulator_util.o: src/lib/simulator_util.c.o
@@ -305,6 +437,7 @@ src/lib/simulator_util.o: src/lib/simulator_util.c.o
 # target to build an object file
 src/lib/simulator_util.c.o:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvgl_linux.dir/build.make gui_manager/CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.o
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o
 .PHONY : src/lib/simulator_util.c.o
 
 src/lib/simulator_util.i: src/lib/simulator_util.c.i
@@ -313,6 +446,7 @@ src/lib/simulator_util.i: src/lib/simulator_util.c.i
 # target to preprocess a source file
 src/lib/simulator_util.c.i:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvgl_linux.dir/build.make gui_manager/CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.i
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.i
 .PHONY : src/lib/simulator_util.c.i
 
 src/lib/simulator_util.s: src/lib/simulator_util.c.s
@@ -321,7 +455,56 @@ src/lib/simulator_util.s: src/lib/simulator_util.c.s
 # target to generate assembly for a file
 src/lib/simulator_util.c.s:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvgl_linux.dir/build.make gui_manager/CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.s
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.s
 .PHONY : src/lib/simulator_util.c.s
+
+src/liveview/controller/src/liveview_controller.o: src/liveview/controller/src/liveview_controller.cpp.o
+.PHONY : src/liveview/controller/src/liveview_controller.o
+
+# target to build an object file
+src/liveview/controller/src/liveview_controller.cpp.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controller.cpp.o
+.PHONY : src/liveview/controller/src/liveview_controller.cpp.o
+
+src/liveview/controller/src/liveview_controller.i: src/liveview/controller/src/liveview_controller.cpp.i
+.PHONY : src/liveview/controller/src/liveview_controller.i
+
+# target to preprocess a source file
+src/liveview/controller/src/liveview_controller.cpp.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controller.cpp.i
+.PHONY : src/liveview/controller/src/liveview_controller.cpp.i
+
+src/liveview/controller/src/liveview_controller.s: src/liveview/controller/src/liveview_controller.cpp.s
+.PHONY : src/liveview/controller/src/liveview_controller.s
+
+# target to generate assembly for a file
+src/liveview/controller/src/liveview_controller.cpp.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controller.cpp.s
+.PHONY : src/liveview/controller/src/liveview_controller.cpp.s
+
+src/liveview/view/src/gui_liveview.o: src/liveview/view/src/gui_liveview.cpp.o
+.PHONY : src/liveview/view/src/gui_liveview.o
+
+# target to build an object file
+src/liveview/view/src/gui_liveview.cpp.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.o
+.PHONY : src/liveview/view/src/gui_liveview.cpp.o
+
+src/liveview/view/src/gui_liveview.i: src/liveview/view/src/gui_liveview.cpp.i
+.PHONY : src/liveview/view/src/gui_liveview.i
+
+# target to preprocess a source file
+src/liveview/view/src/gui_liveview.cpp.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.i
+.PHONY : src/liveview/view/src/gui_liveview.cpp.i
+
+src/liveview/view/src/gui_liveview.s: src/liveview/view/src/gui_liveview.cpp.s
+.PHONY : src/liveview/view/src/gui_liveview.s
+
+# target to generate assembly for a file
+src/liveview/view/src/gui_liveview.cpp.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.s
+.PHONY : src/liveview/view/src/gui_liveview.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -362,9 +545,24 @@ help:
 	@echo "... run"
 	@echo "... lvgl_linux"
 	@echo "... lvglsim"
+	@echo "... src/lib/display_backends/drm.o"
+	@echo "... src/lib/display_backends/drm.i"
+	@echo "... src/lib/display_backends/drm.s"
 	@echo "... src/lib/display_backends/fbdev.o"
 	@echo "... src/lib/display_backends/fbdev.i"
 	@echo "... src/lib/display_backends/fbdev.s"
+	@echo "... src/lib/display_backends/glfw3.o"
+	@echo "... src/lib/display_backends/glfw3.i"
+	@echo "... src/lib/display_backends/glfw3.s"
+	@echo "... src/lib/display_backends/sdl.o"
+	@echo "... src/lib/display_backends/sdl.i"
+	@echo "... src/lib/display_backends/sdl.s"
+	@echo "... src/lib/display_backends/wayland.o"
+	@echo "... src/lib/display_backends/wayland.i"
+	@echo "... src/lib/display_backends/wayland.s"
+	@echo "... src/lib/display_backends/x11.o"
+	@echo "... src/lib/display_backends/x11.i"
+	@echo "... src/lib/display_backends/x11.s"
 	@echo "... src/lib/driver_backends.o"
 	@echo "... src/lib/driver_backends.i"
 	@echo "... src/lib/driver_backends.s"
@@ -377,6 +575,12 @@ help:
 	@echo "... src/lib/simulator_util.o"
 	@echo "... src/lib/simulator_util.i"
 	@echo "... src/lib/simulator_util.s"
+	@echo "... src/liveview/controller/src/liveview_controller.o"
+	@echo "... src/liveview/controller/src/liveview_controller.i"
+	@echo "... src/liveview/controller/src/liveview_controller.s"
+	@echo "... src/liveview/view/src/gui_liveview.o"
+	@echo "... src/liveview/view/src/gui_liveview.i"
+	@echo "... src/liveview/view/src/gui_liveview.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

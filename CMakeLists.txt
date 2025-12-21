@@ -44,6 +44,8 @@ project(MyProject LANGUAGES C CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+include_directories(${CMAKE_SOURCE_DIR}/common/inc/)
+
 # 先添加 communication 库
 add_subdirectory(communication)
 
