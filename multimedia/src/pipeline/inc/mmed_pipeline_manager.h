@@ -6,6 +6,11 @@
 #include <gst/gst.h>
 #include <string>
 #include <iostream>
+#include <gst/app/gstappsink.h>
+
+
+#include "ipc_shared_memory.h"
+
 class MmedPipelineManager{
 
 public:
@@ -15,7 +20,9 @@ public:
 	bool preview();
 	
 
+private:
 
+	IpcSharedMemory* m_shared_memory;
 
 };
 

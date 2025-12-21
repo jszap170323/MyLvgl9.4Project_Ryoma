@@ -1,9 +1,39 @@
 #include "mmed_pipeline_manager.h"
 
+static GstFlowReturn on_new_sample(GstAppSink* sink, gpointer user_data)
+{
+//	std::cout <<"onnewsample" << std::endl;
+    // user_data: 你的共享内存对象
+    auto* shm = static_cast<IpcSharedMemory*>(user_data);
+
+    // 1. 拉一帧
+    GstSample* sample = gst_app_sink_pull_sample(sink);
+    if (!sample)
+        return GST_FLOW_ERROR;
+
+    // 2. 取 buffer
+    GstBuffer* buffer = gst_sample_get_buffer(sample);
+    GstMapInfo map;
+
+    if (gst_buffer_map(buffer, &map, GST_MAP_READ)) {
+        // map.data  → 像素指针
+        // map.size  → 字节数
+
+//		std::cout << "map.size = " << map.size << std::endl;
+        shm->write(map.data, map.size);
+
+        gst_buffer_unmap(buffer, &map);
+    }
+
+    gst_sample_unref(sample);
+    return GST_FLOW_OK;
+}
 
 MmedPipelineManager::MmedPipelineManager()
 {
+	m_shared_memory = new IpcSharedMemory("/VideoFrameMemory", 1024*600*2, true);
 	preview();
+
 }
 
 MmedPipelineManager::~MmedPipelineManager()
@@ -20,13 +50,21 @@ bool MmedPipelineManager::preview()
 	int height = 600;
 	int framerate = 30;
  
-	std::string pipeline_str =
-    "imxv4l2src device=" + device + " ! "
+//	std::string pipeline_str =
+//    "imxv4l2src device=" + device + " ! "
 //    "video/x-raw, format=YUYV, width=" + std::to_string(width) +
   //  ", height=" + std::to_string(height) +
    // ", framerate=" + std::to_string(framerate) + "/1 ! "
-    "videoconvert ! imxv4l2sink";
-	
+    //"videoconvert ! imxv4l2sink";
+    //"videoconvert ! appsink";
+//	"videoconvert ! "
+ //  	 "appsink name=appsink";
+
+	std::string pipeline_str =
+	"imxv4l2src device=/dev/video1 ! "
+	"video/x-raw, format=RGB16, width=1024, height=600 ! "
+	"appsink name=appsink";
+
 
         std::cout << "Pipeline: " << pipeline_str << std::endl;
         
@@ -34,6 +72,22 @@ bool MmedPipelineManager::preview()
         GError *error = nullptr;
 		GstElement *pipeline_;
         pipeline_ = gst_parse_launch(pipeline_str.c_str(), &error);
+	GstElement* appsink =
+    	gst_bin_get_by_name(GST_BIN(pipeline_), "appsink");
+	GstAppSink* app_sink = GST_APP_SINK(appsink);
+	g_object_set(G_OBJECT(app_sink),
+             "emit-signals", TRUE,   // 必须
+             "sync", FALSE,          // 不跟时钟
+             "max-buffers", 1,       // 防止堆积
+             "drop", TRUE,           // 只要最新帧
+             NULL);
+	GstAppSinkCallbacks callbacks = {};
+	callbacks.new_sample = on_new_sample;
+
+	gst_app_sink_set_callbacks(app_sink,
+                           &callbacks,
+                           m_shared_memory,
+                           nullptr);
         
         if (error) {
             std::cerr << "Failed to create pipeline: " << error->message << std::endl;
@@ -54,5 +108,8 @@ bool MmedPipelineManager::preview()
             pipeline_ = nullptr;
             return false;
         }
+		
+		GMainLoop* loop = g_main_loop_new(nullptr, FALSE);
+		g_main_loop_run(loop);
 	return true;
 }

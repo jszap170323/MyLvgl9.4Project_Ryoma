@@ -368,11 +368,12 @@ target_include_directories(lvgl_linux PUBLIC
 target_link_libraries(lvgl PUBLIC ${PKG_CONFIG_LIB} m pthread)
 
 file(GLOB SOURCE_FILES src/*.c
+	src/*.cpp
     assets/*.c) 
 add_executable(lvglsim ${SOURCE_FILES})
 
 # Repeat lvgl_linux to resolve circular dependency with lvgl
-target_link_libraries(lvglsim lvgl_linux lvgl communication)
+target_link_libraries(lvglsim lvgl_linux lvgl communication pthread rt)
 
 if(WERROR)
     target_compile_options(lvglsim PRIVATE -Werror)

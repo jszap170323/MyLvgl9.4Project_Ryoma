@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/lvglsim.dir/src/main.c.o -o bin/lvglsim   -L/lib/evdev  -Wl,-rpath,/lib/evdev liblvgl_linux.a lvgl/lib/liblvgl.a -lcommunication lvgl/lib/liblvgl_thorvg.a lvgl/lib/liblvgl_examples.a lvgl/lib/liblvgl_demos.a lvgl/lib/liblvgl.a lvgl/lib/liblvgl_thorvg.a lvgl/lib/liblvgl_examples.a lvgl/lib/liblvgl_demos.a -levdev -lm -lpthread

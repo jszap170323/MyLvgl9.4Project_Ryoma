@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/build/cmake_install.cmake",
-		"/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/build/lvgl/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

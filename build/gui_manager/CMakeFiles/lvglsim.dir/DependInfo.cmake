@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/main.c" "gui_manager/CMakeFiles/lvglsim.dir/src/main.c.o" "gcc" "gui_manager/CMakeFiles/lvglsim.dir/src/main.c.o.d"
+  "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/main.cpp" "gui_manager/CMakeFiles/lvglsim.dir/src/main.cpp.o" "gcc" "gui_manager/CMakeFiles/lvglsim.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
