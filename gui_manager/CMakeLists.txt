@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.11)
-project(lvgl)
+project(gui_manager)
 
 option(WERROR "Treat warnings as errors for LVGL targets" OFF)
 
@@ -27,11 +27,11 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -Wpedantic")
 
 set(CONFIG "default" CACHE STRING "Config name to use. Leave empty for default `lv_conf.defaults`")
 
-set(LV_CONF_DEFAULTS_PATH "${CMAKE_SOURCE_DIR}/lv_conf.defaults")
+set(LV_CONF_DEFAULTS_PATH "${CMAKE_CURRENT_SOURCE_DIR}/lv_conf.defaults")
 
 # If CONFIG is not default, update LV_CONF_DEFAULTS_PATH to the selected config
 if(NOT CONFIG STREQUAL "default")
-    set(LV_CONF_DEFAULTS_PATH "${CMAKE_SOURCE_DIR}/configs/${CONFIG}.defaults")
+    set(LV_CONF_DEFAULTS_PATH "${CMAKE_CURRENT_SOURCE_DIR}/configs/${CONFIG}.defaults")
 endif()
 
 if(NOT EXISTS "${LV_CONF_DEFAULTS_PATH}")
@@ -46,8 +46,8 @@ set(LV_BUILD_CONF_PATH
     "${CMAKE_BINARY_DIR}/lv_conf.h"
     CACHE PATH "path to lv_conf.h" FORCE)
 
-set(LVGL_TEMPLATE_PATH "${CMAKE_SOURCE_DIR}/lvgl/lv_conf_template.h")
-set(GENERATE_SCRIPT_PATH "${CMAKE_SOURCE_DIR}/lvgl/scripts/generate_lv_conf.py")
+set(LVGL_TEMPLATE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/lvgl/lv_conf_template.h")
+set(GENERATE_SCRIPT_PATH "${CMAKE_CURRENT_SOURCE_DIR}/lvgl/scripts/generate_lv_conf.py")
 
 set_property(DIRECTORY APPEND PROPERTY CMAKE_CONFIGURE_DEPENDS ${LVGL_TEMPLATE_PATH})
 set_property(DIRECTORY APPEND PROPERTY CMAKE_CONFIGURE_DEPENDS ${LV_CONF_DEFAULTS_PATH})
@@ -372,9 +372,7 @@ file(GLOB SOURCE_FILES src/*.c
 add_executable(lvglsim ${SOURCE_FILES})
 
 # Repeat lvgl_linux to resolve circular dependency with lvgl
-target_link_libraries(lvglsim lvgl_linux lvgl lvgl_linux)
-# 链接 communication 库
-target_link_libraries(lvglsim PRIVATE communication)
+target_link_libraries(lvglsim lvgl_linux lvgl communication)
 
 if(WERROR)
     target_compile_options(lvglsim PRIVATE -Werror)

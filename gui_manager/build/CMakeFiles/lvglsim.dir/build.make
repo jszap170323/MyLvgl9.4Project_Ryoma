@@ -76,15 +76,15 @@ CMakeFiles/lvglsim.dir/src/main.c.o: CMakeFiles/lvglsim.dir/flags.make
 CMakeFiles/lvglsim.dir/src/main.c.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/main.c
 CMakeFiles/lvglsim.dir/src/main.c.o: CMakeFiles/lvglsim.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lvglsim.dir/src/main.c.o"
-	/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvglsim.dir/src/main.c.o -MF CMakeFiles/lvglsim.dir/src/main.c.o.d -o CMakeFiles/lvglsim.dir/src/main.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/main.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvglsim.dir/src/main.c.o -MF CMakeFiles/lvglsim.dir/src/main.c.o.d -o CMakeFiles/lvglsim.dir/src/main.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/main.c
 
 CMakeFiles/lvglsim.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lvglsim.dir/src/main.c.i"
-	/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/main.c > CMakeFiles/lvglsim.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/main.c > CMakeFiles/lvglsim.dir/src/main.c.i
 
 CMakeFiles/lvglsim.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lvglsim.dir/src/main.c.s"
-	/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/main.c -o CMakeFiles/lvglsim.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/main.c -o CMakeFiles/lvglsim.dir/src/main.c.s
 
 # Object files for target lvglsim
 lvglsim_OBJECTS = \
@@ -97,7 +97,6 @@ bin/lvglsim: CMakeFiles/lvglsim.dir/src/main.c.o
 bin/lvglsim: CMakeFiles/lvglsim.dir/build.make
 bin/lvglsim: liblvgl_linux.a
 bin/lvglsim: lvgl/lib/liblvgl.a
-bin/lvglsim: liblvgl_linux.a
 bin/lvglsim: lvgl/lib/liblvgl_thorvg.a
 bin/lvglsim: lvgl/lib/liblvgl_examples.a
 bin/lvglsim: lvgl/lib/liblvgl_demos.a

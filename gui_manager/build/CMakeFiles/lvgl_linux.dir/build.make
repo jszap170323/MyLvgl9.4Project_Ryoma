@@ -76,71 +76,71 @@ CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.o: CMakeFiles/lvgl_linux.dir
 CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/driver_backends.c
 CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.o: CMakeFiles/lvgl_linux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.o"
-	/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.o -MF CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.o.d -o CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/driver_backends.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.o -MF CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.o.d -o CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/driver_backends.c
 
 CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.i"
-	/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/driver_backends.c > CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/driver_backends.c > CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.i
 
 CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.s"
-	/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/driver_backends.c -o CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/driver_backends.c -o CMakeFiles/lvgl_linux.dir/src/lib/driver_backends.c.s
 
 CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.o: CMakeFiles/lvgl_linux.dir/flags.make
 CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/mouse_cursor_icon.c
 CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.o: CMakeFiles/lvgl_linux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.o"
-	/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.o -MF CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.o.d -o CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/mouse_cursor_icon.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.o -MF CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.o.d -o CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/mouse_cursor_icon.c
 
 CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.i"
-	/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/mouse_cursor_icon.c > CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/mouse_cursor_icon.c > CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.i
 
 CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.s"
-	/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/mouse_cursor_icon.c -o CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/mouse_cursor_icon.c -o CMakeFiles/lvgl_linux.dir/src/lib/mouse_cursor_icon.c.s
 
 CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.o: CMakeFiles/lvgl_linux.dir/flags.make
 CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/simulator_util.c
 CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.o: CMakeFiles/lvgl_linux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.o"
-	/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.o -MF CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.o.d -o CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/simulator_util.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.o -MF CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.o.d -o CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/simulator_util.c
 
 CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.i"
-	/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/simulator_util.c > CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/simulator_util.c > CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.i
 
 CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.s"
-	/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/simulator_util.c -o CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/simulator_util.c -o CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.s
 
 CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.o: CMakeFiles/lvgl_linux.dir/flags.make
 CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/indev_backends/evdev.c
 CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.o: CMakeFiles/lvgl_linux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.o"
-	/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.o -MF CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.o.d -o CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/indev_backends/evdev.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.o -MF CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.o.d -o CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/indev_backends/evdev.c
 
 CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.i"
-	/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/indev_backends/evdev.c > CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/indev_backends/evdev.c > CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.i
 
 CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.s"
-	/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/indev_backends/evdev.c -o CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/indev_backends/evdev.c -o CMakeFiles/lvgl_linux.dir/src/lib/indev_backends/evdev.c.s
 
 CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.o: CMakeFiles/lvgl_linux.dir/flags.make
 CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/fbdev.c
 CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.o: CMakeFiles/lvgl_linux.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.o"
-	/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.o -MF CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.o.d -o CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/fbdev.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.o -MF CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.o.d -o CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/fbdev.c
 
 CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.i"
-	/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/fbdev.c > CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/fbdev.c > CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.i
 
 CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.s"
-	/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/fbdev.c -o CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/fbdev.c -o CMakeFiles/lvgl_linux.dir/src/lib/display_backends/fbdev.c.s
 
 # Object files for target lvgl_linux
 lvgl_linux_OBJECTS = \
