@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/src/ipc_message_queue.cpp" "communication/CMakeFiles/communication.dir/src/ipc_message_queue.cpp.o" "gcc" "communication/CMakeFiles/communication.dir/src/ipc_message_queue.cpp.o.d"
   "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/src/ipc_shared_memory.cpp" "communication/CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o" "gcc" "communication/CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o.d"
   )
 

@@ -175,6 +175,30 @@ communication/fast:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f communication/CMakeFiles/communication.dir/build.make communication/CMakeFiles/communication.dir/build
 .PHONY : communication/fast
 
+src/ipc_message_queue.o: src/ipc_message_queue.cpp.o
+.PHONY : src/ipc_message_queue.o
+
+# target to build an object file
+src/ipc_message_queue.cpp.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f communication/CMakeFiles/communication.dir/build.make communication/CMakeFiles/communication.dir/src/ipc_message_queue.cpp.o
+.PHONY : src/ipc_message_queue.cpp.o
+
+src/ipc_message_queue.i: src/ipc_message_queue.cpp.i
+.PHONY : src/ipc_message_queue.i
+
+# target to preprocess a source file
+src/ipc_message_queue.cpp.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f communication/CMakeFiles/communication.dir/build.make communication/CMakeFiles/communication.dir/src/ipc_message_queue.cpp.i
+.PHONY : src/ipc_message_queue.cpp.i
+
+src/ipc_message_queue.s: src/ipc_message_queue.cpp.s
+.PHONY : src/ipc_message_queue.s
+
+# target to generate assembly for a file
+src/ipc_message_queue.cpp.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f communication/CMakeFiles/communication.dir/build.make communication/CMakeFiles/communication.dir/src/ipc_message_queue.cpp.s
+.PHONY : src/ipc_message_queue.cpp.s
+
 src/ipc_shared_memory.o: src/ipc_shared_memory.cpp.o
 .PHONY : src/ipc_shared_memory.o
 
@@ -212,6 +236,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... communication"
+	@echo "... src/ipc_message_queue.o"
+	@echo "... src/ipc_message_queue.i"
+	@echo "... src/ipc_message_queue.s"
 	@echo "... src/ipc_shared_memory.o"
 	@echo "... src/ipc_shared_memory.i"
 	@echo "... src/ipc_shared_memory.s"

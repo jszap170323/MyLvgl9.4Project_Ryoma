@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/IpcUtility/src/mmed_message_ctrl.cpp" "multimedia/CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.o" "gcc" "multimedia/CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.o.d"
   "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/main.cpp" "multimedia/CMakeFiles/multimedia.dir/src/main.cpp.o" "gcc" "multimedia/CMakeFiles/multimedia.dir/src/main.cpp.o.d"
+  "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/mmedCtrl/src/mmed_controller.cpp" "multimedia/CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.o" "gcc" "multimedia/CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.o.d"
   "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/pipeline/src/mmed_pipeline_manager.cpp" "multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.o" "gcc" "multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.o.d"
   )
 

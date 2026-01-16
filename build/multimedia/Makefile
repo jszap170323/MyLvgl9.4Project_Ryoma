@@ -175,6 +175,30 @@ multimedia/fast:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/build
 .PHONY : multimedia/fast
 
+src/IpcUtility/src/mmed_message_ctrl.o: src/IpcUtility/src/mmed_message_ctrl.cpp.o
+.PHONY : src/IpcUtility/src/mmed_message_ctrl.o
+
+# target to build an object file
+src/IpcUtility/src/mmed_message_ctrl.cpp.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.o
+.PHONY : src/IpcUtility/src/mmed_message_ctrl.cpp.o
+
+src/IpcUtility/src/mmed_message_ctrl.i: src/IpcUtility/src/mmed_message_ctrl.cpp.i
+.PHONY : src/IpcUtility/src/mmed_message_ctrl.i
+
+# target to preprocess a source file
+src/IpcUtility/src/mmed_message_ctrl.cpp.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.i
+.PHONY : src/IpcUtility/src/mmed_message_ctrl.cpp.i
+
+src/IpcUtility/src/mmed_message_ctrl.s: src/IpcUtility/src/mmed_message_ctrl.cpp.s
+.PHONY : src/IpcUtility/src/mmed_message_ctrl.s
+
+# target to generate assembly for a file
+src/IpcUtility/src/mmed_message_ctrl.cpp.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.s
+.PHONY : src/IpcUtility/src/mmed_message_ctrl.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -198,6 +222,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/mmedCtrl/src/mmed_controller.o: src/mmedCtrl/src/mmed_controller.cpp.o
+.PHONY : src/mmedCtrl/src/mmed_controller.o
+
+# target to build an object file
+src/mmedCtrl/src/mmed_controller.cpp.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.o
+.PHONY : src/mmedCtrl/src/mmed_controller.cpp.o
+
+src/mmedCtrl/src/mmed_controller.i: src/mmedCtrl/src/mmed_controller.cpp.i
+.PHONY : src/mmedCtrl/src/mmed_controller.i
+
+# target to preprocess a source file
+src/mmedCtrl/src/mmed_controller.cpp.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.i
+.PHONY : src/mmedCtrl/src/mmed_controller.cpp.i
+
+src/mmedCtrl/src/mmed_controller.s: src/mmedCtrl/src/mmed_controller.cpp.s
+.PHONY : src/mmedCtrl/src/mmed_controller.s
+
+# target to generate assembly for a file
+src/mmedCtrl/src/mmed_controller.cpp.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.s
+.PHONY : src/mmedCtrl/src/mmed_controller.cpp.s
 
 src/pipeline/src/mmed_pipeline_manager.o: src/pipeline/src/mmed_pipeline_manager.cpp.o
 .PHONY : src/pipeline/src/mmed_pipeline_manager.o
@@ -236,9 +284,15 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... multimedia"
+	@echo "... src/IpcUtility/src/mmed_message_ctrl.o"
+	@echo "... src/IpcUtility/src/mmed_message_ctrl.i"
+	@echo "... src/IpcUtility/src/mmed_message_ctrl.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mmedCtrl/src/mmed_controller.o"
+	@echo "... src/mmedCtrl/src/mmed_controller.i"
+	@echo "... src/mmedCtrl/src/mmed_controller.s"
 	@echo "... src/pipeline/src/mmed_pipeline_manager.o"
 	@echo "... src/pipeline/src/mmed_pipeline_manager.i"
 	@echo "... src/pipeline/src/mmed_pipeline_manager.s"

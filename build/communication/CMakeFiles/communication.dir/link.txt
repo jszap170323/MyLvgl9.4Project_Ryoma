@@ -1,2 +1,2 @@
-/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-ar qc libcommunication.a CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o
+/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-ar qc libcommunication.a CMakeFiles/communication.dir/src/ipc_message_queue.cpp.o CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o
 /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-ranlib libcommunication.a

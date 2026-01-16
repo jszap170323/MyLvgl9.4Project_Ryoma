@@ -72,10 +72,24 @@ include multimedia/CMakeFiles/multimedia.dir/flags.make
 multimedia/CMakeFiles/multimedia.dir/codegen:
 .PHONY : multimedia/CMakeFiles/multimedia.dir/codegen
 
+multimedia/CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.o: multimedia/CMakeFiles/multimedia.dir/flags.make
+multimedia/CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/IpcUtility/src/mmed_message_ctrl.cpp
+multimedia/CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.o: multimedia/CMakeFiles/multimedia.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object multimedia/CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.o"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/multimedia && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT multimedia/CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.o -MF CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.o.d -o CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/IpcUtility/src/mmed_message_ctrl.cpp
+
+multimedia/CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.i"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/multimedia && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/IpcUtility/src/mmed_message_ctrl.cpp > CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.i
+
+multimedia/CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.s"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/multimedia && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/IpcUtility/src/mmed_message_ctrl.cpp -o CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.s
+
 multimedia/CMakeFiles/multimedia.dir/src/main.cpp.o: multimedia/CMakeFiles/multimedia.dir/flags.make
 multimedia/CMakeFiles/multimedia.dir/src/main.cpp.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/main.cpp
 multimedia/CMakeFiles/multimedia.dir/src/main.cpp.o: multimedia/CMakeFiles/multimedia.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object multimedia/CMakeFiles/multimedia.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object multimedia/CMakeFiles/multimedia.dir/src/main.cpp.o"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/multimedia && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT multimedia/CMakeFiles/multimedia.dir/src/main.cpp.o -MF CMakeFiles/multimedia.dir/src/main.cpp.o.d -o CMakeFiles/multimedia.dir/src/main.cpp.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/main.cpp
 
 multimedia/CMakeFiles/multimedia.dir/src/main.cpp.i: cmake_force
@@ -86,10 +100,24 @@ multimedia/CMakeFiles/multimedia.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/multimedia.dir/src/main.cpp.s"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/multimedia && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/main.cpp -o CMakeFiles/multimedia.dir/src/main.cpp.s
 
+multimedia/CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.o: multimedia/CMakeFiles/multimedia.dir/flags.make
+multimedia/CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/mmedCtrl/src/mmed_controller.cpp
+multimedia/CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.o: multimedia/CMakeFiles/multimedia.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object multimedia/CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.o"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/multimedia && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT multimedia/CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.o -MF CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.o.d -o CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/mmedCtrl/src/mmed_controller.cpp
+
+multimedia/CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.i"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/multimedia && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/mmedCtrl/src/mmed_controller.cpp > CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.i
+
+multimedia/CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.s"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/multimedia && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/mmedCtrl/src/mmed_controller.cpp -o CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.s
+
 multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.o: multimedia/CMakeFiles/multimedia.dir/flags.make
 multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/pipeline/src/mmed_pipeline_manager.cpp
 multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.o: multimedia/CMakeFiles/multimedia.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.o"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/multimedia && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.o -MF CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.o.d -o CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/pipeline/src/mmed_pipeline_manager.cpp
 
 multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.i: cmake_force
@@ -102,18 +130,22 @@ multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.
 
 # Object files for target multimedia
 multimedia_OBJECTS = \
+"CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.o" \
 "CMakeFiles/multimedia.dir/src/main.cpp.o" \
+"CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.o" \
 "CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.o"
 
 # External object files for target multimedia
 multimedia_EXTERNAL_OBJECTS =
 
+bin/multimedia: multimedia/CMakeFiles/multimedia.dir/src/IpcUtility/src/mmed_message_ctrl.cpp.o
 bin/multimedia: multimedia/CMakeFiles/multimedia.dir/src/main.cpp.o
+bin/multimedia: multimedia/CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.o
 bin/multimedia: multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.o
 bin/multimedia: multimedia/CMakeFiles/multimedia.dir/build.make
 bin/multimedia: communication/libcommunication.a
 bin/multimedia: multimedia/CMakeFiles/multimedia.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/multimedia"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../bin/multimedia"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/multimedia && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multimedia.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

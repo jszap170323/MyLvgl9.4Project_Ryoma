@@ -376,6 +376,7 @@ add_executable(lvglsim ${SOURCE_FILES})
 target_include_directories(lvglsim PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/src
     ${CMAKE_CURRENT_SOURCE_DIR}/src/core/inc
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/IpcUtility/inc
 	${CMAKE_CURRENT_SOURCE_DIR}/src/liveview/controller/inc
 	${CMAKE_CURRENT_SOURCE_DIR}/src/liveview/view/inc
     ${PKG_CONFIG_INC})

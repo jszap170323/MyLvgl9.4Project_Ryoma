@@ -3,6 +3,7 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/inc)
 
 # 编译为静态库
 add_library(communication STATIC
+    src/ipc_message_queue.cpp
     src/ipc_shared_memory.cpp
 )
 

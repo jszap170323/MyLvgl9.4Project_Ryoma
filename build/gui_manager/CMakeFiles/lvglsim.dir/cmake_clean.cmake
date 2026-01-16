@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "../bin/lvglsim"
   "../bin/lvglsim.pdb"
+  "CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.o"
+  "CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.o.d"
   "CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.o"
   "CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.o.d"
   "CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o"

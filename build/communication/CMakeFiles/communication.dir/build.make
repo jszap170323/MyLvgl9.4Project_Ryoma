@@ -72,10 +72,24 @@ include communication/CMakeFiles/communication.dir/flags.make
 communication/CMakeFiles/communication.dir/codegen:
 .PHONY : communication/CMakeFiles/communication.dir/codegen
 
+communication/CMakeFiles/communication.dir/src/ipc_message_queue.cpp.o: communication/CMakeFiles/communication.dir/flags.make
+communication/CMakeFiles/communication.dir/src/ipc_message_queue.cpp.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/src/ipc_message_queue.cpp
+communication/CMakeFiles/communication.dir/src/ipc_message_queue.cpp.o: communication/CMakeFiles/communication.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object communication/CMakeFiles/communication.dir/src/ipc_message_queue.cpp.o"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/communication && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT communication/CMakeFiles/communication.dir/src/ipc_message_queue.cpp.o -MF CMakeFiles/communication.dir/src/ipc_message_queue.cpp.o.d -o CMakeFiles/communication.dir/src/ipc_message_queue.cpp.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/src/ipc_message_queue.cpp
+
+communication/CMakeFiles/communication.dir/src/ipc_message_queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/communication.dir/src/ipc_message_queue.cpp.i"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/communication && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/src/ipc_message_queue.cpp > CMakeFiles/communication.dir/src/ipc_message_queue.cpp.i
+
+communication/CMakeFiles/communication.dir/src/ipc_message_queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/communication.dir/src/ipc_message_queue.cpp.s"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/communication && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/src/ipc_message_queue.cpp -o CMakeFiles/communication.dir/src/ipc_message_queue.cpp.s
+
 communication/CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o: communication/CMakeFiles/communication.dir/flags.make
 communication/CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/src/ipc_shared_memory.cpp
 communication/CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o: communication/CMakeFiles/communication.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object communication/CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object communication/CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/communication && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT communication/CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o -MF CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o.d -o CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/src/ipc_shared_memory.cpp
 
 communication/CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.i: cmake_force
@@ -88,15 +102,17 @@ communication/CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.s: cmake_fo
 
 # Object files for target communication
 communication_OBJECTS = \
+"CMakeFiles/communication.dir/src/ipc_message_queue.cpp.o" \
 "CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o"
 
 # External object files for target communication
 communication_EXTERNAL_OBJECTS =
 
+communication/libcommunication.a: communication/CMakeFiles/communication.dir/src/ipc_message_queue.cpp.o
 communication/libcommunication.a: communication/CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o
 communication/libcommunication.a: communication/CMakeFiles/communication.dir/build.make
 communication/libcommunication.a: communication/CMakeFiles/communication.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcommunication.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libcommunication.a"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/communication && $(CMAKE_COMMAND) -P CMakeFiles/communication.dir/cmake_clean_target.cmake
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/communication && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/communication.dir/link.txt --verbose=$(VERBOSE)
 

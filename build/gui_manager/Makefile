@@ -203,6 +203,30 @@ run/fast:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/run.dir/build.make gui_manager/CMakeFiles/run.dir/build
 .PHONY : run/fast
 
+src/IpcUtility/src/gui_message_ctrl.o: src/IpcUtility/src/gui_message_ctrl.cpp.o
+.PHONY : src/IpcUtility/src/gui_message_ctrl.o
+
+# target to build an object file
+src/IpcUtility/src/gui_message_ctrl.cpp.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.o
+.PHONY : src/IpcUtility/src/gui_message_ctrl.cpp.o
+
+src/IpcUtility/src/gui_message_ctrl.i: src/IpcUtility/src/gui_message_ctrl.cpp.i
+.PHONY : src/IpcUtility/src/gui_message_ctrl.i
+
+# target to preprocess a source file
+src/IpcUtility/src/gui_message_ctrl.cpp.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.i
+.PHONY : src/IpcUtility/src/gui_message_ctrl.cpp.i
+
+src/IpcUtility/src/gui_message_ctrl.s: src/IpcUtility/src/gui_message_ctrl.cpp.s
+.PHONY : src/IpcUtility/src/gui_message_ctrl.s
+
+# target to generate assembly for a file
+src/IpcUtility/src/gui_message_ctrl.cpp.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.s
+.PHONY : src/IpcUtility/src/gui_message_ctrl.cpp.s
+
 src/lib/display_backends/drm.o: src/lib/display_backends/drm.c.o
 .PHONY : src/lib/display_backends/drm.o
 
@@ -545,6 +569,9 @@ help:
 	@echo "... run"
 	@echo "... lvgl_linux"
 	@echo "... lvglsim"
+	@echo "... src/IpcUtility/src/gui_message_ctrl.o"
+	@echo "... src/IpcUtility/src/gui_message_ctrl.i"
+	@echo "... src/IpcUtility/src/gui_message_ctrl.s"
 	@echo "... src/lib/display_backends/drm.o"
 	@echo "... src/lib/display_backends/drm.i"
 	@echo "... src/lib/display_backends/drm.s"

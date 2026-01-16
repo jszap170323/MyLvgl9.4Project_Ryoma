@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/communication.dir/src/ipc_message_queue.cpp.o"
+  "CMakeFiles/communication.dir/src/ipc_message_queue.cpp.o.d"
   "CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o"
   "CMakeFiles/communication.dir/src/ipc_shared_memory.cpp.o.d"
   "libcommunication.a"
