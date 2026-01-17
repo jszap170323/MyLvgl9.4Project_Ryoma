@@ -18,10 +18,14 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/indev_backends/evdev.c" "gui_manager/CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.o" "gcc" "gui_manager/CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.o.d"
   "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/mouse_cursor_icon.c" "gui_manager/CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o" "gcc" "gui_manager/CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o.d"
   "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/simulator_util.c" "gui_manager/CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o" "gcc" "gui_manager/CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o.d"
+  "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/IpcUtility/src/gui_datamng.cpp" "gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.o" "gcc" "gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.o.d"
   "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/IpcUtility/src/gui_message_ctrl.cpp" "gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.o" "gcc" "gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.o.d"
   "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/controller/src/liveview_controller.cpp" "gui_manager/CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controller.cpp.o" "gcc" "gui_manager/CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controller.cpp.o.d"
   "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/view/src/gui_liveview.cpp" "gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.o" "gcc" "gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.o.d"
+  "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/view/src/gui_video_frame_canvas.cpp" "gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.o" "gcc" "gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.o.d"
   "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/main.cpp" "gui_manager/CMakeFiles/lvglsim.dir/src/main.cpp.o" "gcc" "gui_manager/CMakeFiles/lvglsim.dir/src/main.cpp.o.d"
+  "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/navibar/controller/src/gui_navibar_controller.cpp" "gui_manager/CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.o" "gcc" "gui_manager/CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.o.d"
+  "/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/navibar/view/src/gui_navibar_view.cpp" "gui_manager/CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.o" "gcc" "gui_manager/CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

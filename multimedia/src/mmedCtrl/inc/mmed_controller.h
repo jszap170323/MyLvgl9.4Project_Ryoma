@@ -1,11 +1,18 @@
 #ifndef _MMED_CONTROLLER_H
 #define _MMED_CONTROLLER_H
 
-#include <thread>
-
 #include "block_queue.h"
 #include "ipc_message_queue.h"
 #include "mmed_pipeline_manager.h"
+#include <atomic>
+#include <pthread.h>
+#include <semaphore.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <thread>
+#include <thread>
+#include <unistd.h>
 
 class MmedCtroller {
 
@@ -18,7 +25,8 @@ class MmedCtroller {
     void postCommand(IpcMsgBuffer &msg);
     void receiveMessage();
 
-    bool handleCommand(uint32_t cmd, void *args);
+    bool handleCtrlCommand(uint32_t cmd, void *args);
+    bool handleSetParamsCommand(uint32_t cmd, void *args);
 
   private:
     MmedPipelineManager *m_pipe_manager;

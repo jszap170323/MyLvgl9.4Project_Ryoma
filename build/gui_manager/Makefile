@@ -203,6 +203,30 @@ run/fast:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/run.dir/build.make gui_manager/CMakeFiles/run.dir/build
 .PHONY : run/fast
 
+src/IpcUtility/src/gui_datamng.o: src/IpcUtility/src/gui_datamng.cpp.o
+.PHONY : src/IpcUtility/src/gui_datamng.o
+
+# target to build an object file
+src/IpcUtility/src/gui_datamng.cpp.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.o
+.PHONY : src/IpcUtility/src/gui_datamng.cpp.o
+
+src/IpcUtility/src/gui_datamng.i: src/IpcUtility/src/gui_datamng.cpp.i
+.PHONY : src/IpcUtility/src/gui_datamng.i
+
+# target to preprocess a source file
+src/IpcUtility/src/gui_datamng.cpp.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.i
+.PHONY : src/IpcUtility/src/gui_datamng.cpp.i
+
+src/IpcUtility/src/gui_datamng.s: src/IpcUtility/src/gui_datamng.cpp.s
+.PHONY : src/IpcUtility/src/gui_datamng.s
+
+# target to generate assembly for a file
+src/IpcUtility/src/gui_datamng.cpp.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.s
+.PHONY : src/IpcUtility/src/gui_datamng.cpp.s
+
 src/IpcUtility/src/gui_message_ctrl.o: src/IpcUtility/src/gui_message_ctrl.cpp.o
 .PHONY : src/IpcUtility/src/gui_message_ctrl.o
 
@@ -530,6 +554,30 @@ src/liveview/view/src/gui_liveview.cpp.s:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.s
 .PHONY : src/liveview/view/src/gui_liveview.cpp.s
 
+src/liveview/view/src/gui_video_frame_canvas.o: src/liveview/view/src/gui_video_frame_canvas.cpp.o
+.PHONY : src/liveview/view/src/gui_video_frame_canvas.o
+
+# target to build an object file
+src/liveview/view/src/gui_video_frame_canvas.cpp.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.o
+.PHONY : src/liveview/view/src/gui_video_frame_canvas.cpp.o
+
+src/liveview/view/src/gui_video_frame_canvas.i: src/liveview/view/src/gui_video_frame_canvas.cpp.i
+.PHONY : src/liveview/view/src/gui_video_frame_canvas.i
+
+# target to preprocess a source file
+src/liveview/view/src/gui_video_frame_canvas.cpp.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.i
+.PHONY : src/liveview/view/src/gui_video_frame_canvas.cpp.i
+
+src/liveview/view/src/gui_video_frame_canvas.s: src/liveview/view/src/gui_video_frame_canvas.cpp.s
+.PHONY : src/liveview/view/src/gui_video_frame_canvas.s
+
+# target to generate assembly for a file
+src/liveview/view/src/gui_video_frame_canvas.cpp.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.s
+.PHONY : src/liveview/view/src/gui_video_frame_canvas.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -554,6 +602,54 @@ src/main.cpp.s:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/navibar/controller/src/gui_navibar_controller.o: src/navibar/controller/src/gui_navibar_controller.cpp.o
+.PHONY : src/navibar/controller/src/gui_navibar_controller.o
+
+# target to build an object file
+src/navibar/controller/src/gui_navibar_controller.cpp.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.o
+.PHONY : src/navibar/controller/src/gui_navibar_controller.cpp.o
+
+src/navibar/controller/src/gui_navibar_controller.i: src/navibar/controller/src/gui_navibar_controller.cpp.i
+.PHONY : src/navibar/controller/src/gui_navibar_controller.i
+
+# target to preprocess a source file
+src/navibar/controller/src/gui_navibar_controller.cpp.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.i
+.PHONY : src/navibar/controller/src/gui_navibar_controller.cpp.i
+
+src/navibar/controller/src/gui_navibar_controller.s: src/navibar/controller/src/gui_navibar_controller.cpp.s
+.PHONY : src/navibar/controller/src/gui_navibar_controller.s
+
+# target to generate assembly for a file
+src/navibar/controller/src/gui_navibar_controller.cpp.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.s
+.PHONY : src/navibar/controller/src/gui_navibar_controller.cpp.s
+
+src/navibar/view/src/gui_navibar_view.o: src/navibar/view/src/gui_navibar_view.cpp.o
+.PHONY : src/navibar/view/src/gui_navibar_view.o
+
+# target to build an object file
+src/navibar/view/src/gui_navibar_view.cpp.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.o
+.PHONY : src/navibar/view/src/gui_navibar_view.cpp.o
+
+src/navibar/view/src/gui_navibar_view.i: src/navibar/view/src/gui_navibar_view.cpp.i
+.PHONY : src/navibar/view/src/gui_navibar_view.i
+
+# target to preprocess a source file
+src/navibar/view/src/gui_navibar_view.cpp.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.i
+.PHONY : src/navibar/view/src/gui_navibar_view.cpp.i
+
+src/navibar/view/src/gui_navibar_view.s: src/navibar/view/src/gui_navibar_view.cpp.s
+.PHONY : src/navibar/view/src/gui_navibar_view.s
+
+# target to generate assembly for a file
+src/navibar/view/src/gui_navibar_view.cpp.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f gui_manager/CMakeFiles/lvglsim.dir/build.make gui_manager/CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.s
+.PHONY : src/navibar/view/src/gui_navibar_view.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -569,6 +665,9 @@ help:
 	@echo "... run"
 	@echo "... lvgl_linux"
 	@echo "... lvglsim"
+	@echo "... src/IpcUtility/src/gui_datamng.o"
+	@echo "... src/IpcUtility/src/gui_datamng.i"
+	@echo "... src/IpcUtility/src/gui_datamng.s"
 	@echo "... src/IpcUtility/src/gui_message_ctrl.o"
 	@echo "... src/IpcUtility/src/gui_message_ctrl.i"
 	@echo "... src/IpcUtility/src/gui_message_ctrl.s"
@@ -608,9 +707,18 @@ help:
 	@echo "... src/liveview/view/src/gui_liveview.o"
 	@echo "... src/liveview/view/src/gui_liveview.i"
 	@echo "... src/liveview/view/src/gui_liveview.s"
+	@echo "... src/liveview/view/src/gui_video_frame_canvas.o"
+	@echo "... src/liveview/view/src/gui_video_frame_canvas.i"
+	@echo "... src/liveview/view/src/gui_video_frame_canvas.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/navibar/controller/src/gui_navibar_controller.o"
+	@echo "... src/navibar/controller/src/gui_navibar_controller.i"
+	@echo "... src/navibar/controller/src/gui_navibar_controller.s"
+	@echo "... src/navibar/view/src/gui_navibar_view.o"
+	@echo "... src/navibar/view/src/gui_navibar_view.i"
+	@echo "... src/navibar/view/src/gui_navibar_view.s"
 .PHONY : help
 
 

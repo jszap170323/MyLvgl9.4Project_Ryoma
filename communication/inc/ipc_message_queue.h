@@ -51,13 +51,24 @@ typedef struct __attribute__((packed)) {
     uint8_t data[];
 } IpcCommandData;
 
-// System V 消息
-typedef struct __attribute__((packed)) {
-    long mtype; // 必须 > 0
+// // System V 消息
+// typedef struct __attribute__((packed)) {
+//     long mtype; // 必须 > 0
+//     uint32_t cmd_type;
+//     uint32_t cmd;
+//     uint32_t data_size;
+//     uint8_t data[512]; // flexible array
+// } IpcMsgBuffer;
+
+constexpr size_t MAX_PAYLOAD = 512;
+
+struct IpcMsgBuffer {
+    long mtype;
+    uint32_t cmd_type;
     uint32_t cmd;
     uint32_t data_size;
-    uint8_t data[]; // flexible array
-} IpcMsgBuffer;
+    uint8_t data[MAX_PAYLOAD];
+};
 
 const key_t IPC_KEY = 0x4D4D0001;
 const std::string ui_to_multimedia_ipc_key = "/IPC_KEY_UI_TO_MULTIMEDIA";
@@ -75,8 +86,8 @@ class IpcMessageQueue {
 
     ssize_t readMsg(void *buf, size_t buf_len, long mtype);
     // ssize_t sendMsg(const void *buf, size_t buf_len, long mtype);
-    ssize_t sendCommand(long mtype, uint32_t cmd, const void *payload,
-                        uint32_t payload_len);
+    ssize_t sendCommand(long mtype, uint32_t cmd_type, uint32_t cmd,
+                        const void *payload, uint32_t payload_len);
 
   private:
     ssize_t sendRaw(const IpcMsgBuffer *msg);

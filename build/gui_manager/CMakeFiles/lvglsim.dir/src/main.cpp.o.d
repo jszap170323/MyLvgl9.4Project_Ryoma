@@ -623,6 +623,7 @@ gui_manager/CMakeFiles/lvglsim.dir/src/main.cpp.o: \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos/render/lv_demo_render.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/demos/render/../lv_demos.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/lvgl.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/IpcUtility/inc/gui_datamng.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/IpcUtility/inc/gui_message_ctrl.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/inc/ipc_message_queue.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/inc/ipc_ui_multimedia_command.h \
@@ -667,6 +668,7 @@ gui_manager/CMakeFiles/lvglsim.dir/src/main.cpp.o: \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/bits/stl_bvector.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/bits/vector.tcc \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/inc/ipc_ui_multimedia_command.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/IpcUtility/inc/gui_message_ctrl.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/inc/ipc_shared_memory.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/sys/mman.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/mman.h \
@@ -678,7 +680,14 @@ gui_manager/CMakeFiles/lvglsim.dir/src/main.cpp.o: \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/core/inc/gui_base_controller.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/view/inc/gui_liveview.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/core/inc/gui_base_view.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/core/inc/gui_core_def.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/lvgl.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/controller/inc/gui_event_liveview.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/view/inc/gui_video_frame_canvas.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/controller/inc/gui_event_frame.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/deque \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/bits/stl_deque.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/bits/deque.tcc \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/src/drivers/evdev/lv_evdev.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/driver_backends.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/simulator_settings.h \

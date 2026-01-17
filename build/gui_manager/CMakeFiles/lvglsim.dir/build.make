@@ -72,10 +72,24 @@ include gui_manager/CMakeFiles/lvglsim.dir/flags.make
 gui_manager/CMakeFiles/lvglsim.dir/codegen:
 .PHONY : gui_manager/CMakeFiles/lvglsim.dir/codegen
 
+gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.o: gui_manager/CMakeFiles/lvglsim.dir/flags.make
+gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/IpcUtility/src/gui_datamng.cpp
+gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.o: gui_manager/CMakeFiles/lvglsim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.o"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.o -MF CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.o.d -o CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/IpcUtility/src/gui_datamng.cpp
+
+gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.i"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/IpcUtility/src/gui_datamng.cpp > CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.i
+
+gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.s"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/IpcUtility/src/gui_datamng.cpp -o CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.s
+
 gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.o: gui_manager/CMakeFiles/lvglsim.dir/flags.make
 gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/IpcUtility/src/gui_message_ctrl.cpp
 gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.o: gui_manager/CMakeFiles/lvglsim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.o"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.o -MF CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.o.d -o CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/IpcUtility/src/gui_message_ctrl.cpp
 
 gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.i: cmake_force
@@ -89,7 +103,7 @@ gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.s: cm
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.o: gui_manager/CMakeFiles/lvglsim.dir/flags.make
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/drm.c
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.o: gui_manager/CMakeFiles/lvglsim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.o"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.o -MF CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.o.d -o CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/drm.c
 
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.i: cmake_force
@@ -103,7 +117,7 @@ gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.s: cmake_force
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o: gui_manager/CMakeFiles/lvglsim.dir/flags.make
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/fbdev.c
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o: gui_manager/CMakeFiles/lvglsim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o -MF CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o.d -o CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/fbdev.c
 
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.i: cmake_force
@@ -117,7 +131,7 @@ gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.s: cmake_for
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/glfw3.c.o: gui_manager/CMakeFiles/lvglsim.dir/flags.make
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/glfw3.c.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/glfw3.c
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/glfw3.c.o: gui_manager/CMakeFiles/lvglsim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/glfw3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/glfw3.c.o"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/glfw3.c.o -MF CMakeFiles/lvglsim.dir/src/lib/display_backends/glfw3.c.o.d -o CMakeFiles/lvglsim.dir/src/lib/display_backends/glfw3.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/glfw3.c
 
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/glfw3.c.i: cmake_force
@@ -131,7 +145,7 @@ gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/glfw3.c.s: cmake_for
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/sdl.c.o: gui_manager/CMakeFiles/lvglsim.dir/flags.make
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/sdl.c.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/sdl.c
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/sdl.c.o: gui_manager/CMakeFiles/lvglsim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/sdl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/sdl.c.o"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/sdl.c.o -MF CMakeFiles/lvglsim.dir/src/lib/display_backends/sdl.c.o.d -o CMakeFiles/lvglsim.dir/src/lib/display_backends/sdl.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/sdl.c
 
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/sdl.c.i: cmake_force
@@ -145,7 +159,7 @@ gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/sdl.c.s: cmake_force
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/wayland.c.o: gui_manager/CMakeFiles/lvglsim.dir/flags.make
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/wayland.c.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/wayland.c
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/wayland.c.o: gui_manager/CMakeFiles/lvglsim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/wayland.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/wayland.c.o"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/wayland.c.o -MF CMakeFiles/lvglsim.dir/src/lib/display_backends/wayland.c.o.d -o CMakeFiles/lvglsim.dir/src/lib/display_backends/wayland.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/wayland.c
 
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/wayland.c.i: cmake_force
@@ -159,7 +173,7 @@ gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/wayland.c.s: cmake_f
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/x11.c.o: gui_manager/CMakeFiles/lvglsim.dir/flags.make
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/x11.c.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/x11.c
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/x11.c.o: gui_manager/CMakeFiles/lvglsim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/x11.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/x11.c.o"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/x11.c.o -MF CMakeFiles/lvglsim.dir/src/lib/display_backends/x11.c.o.d -o CMakeFiles/lvglsim.dir/src/lib/display_backends/x11.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/display_backends/x11.c
 
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/x11.c.i: cmake_force
@@ -173,7 +187,7 @@ gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/x11.c.s: cmake_force
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.o: gui_manager/CMakeFiles/lvglsim.dir/flags.make
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/driver_backends.c
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.o: gui_manager/CMakeFiles/lvglsim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.o"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT gui_manager/CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.o -MF CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.o.d -o CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/driver_backends.c
 
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.i: cmake_force
@@ -187,7 +201,7 @@ gui_manager/CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.s: cmake_force
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.o: gui_manager/CMakeFiles/lvglsim.dir/flags.make
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/indev_backends/evdev.c
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.o: gui_manager/CMakeFiles/lvglsim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.o"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT gui_manager/CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.o -MF CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.o.d -o CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/indev_backends/evdev.c
 
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.i: cmake_force
@@ -201,7 +215,7 @@ gui_manager/CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.s: cmake_force
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o: gui_manager/CMakeFiles/lvglsim.dir/flags.make
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/mouse_cursor_icon.c
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o: gui_manager/CMakeFiles/lvglsim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT gui_manager/CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o -MF CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o.d -o CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/mouse_cursor_icon.c
 
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.i: cmake_force
@@ -215,7 +229,7 @@ gui_manager/CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.s: cmake_force
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o: gui_manager/CMakeFiles/lvglsim.dir/flags.make
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/simulator_util.c
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o: gui_manager/CMakeFiles/lvglsim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object gui_manager/CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT gui_manager/CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o -MF CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o.d -o CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/lib/simulator_util.c
 
 gui_manager/CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.i: cmake_force
@@ -229,7 +243,7 @@ gui_manager/CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.s: cmake_force
 gui_manager/CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controller.cpp.o: gui_manager/CMakeFiles/lvglsim.dir/flags.make
 gui_manager/CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controller.cpp.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/controller/src/liveview_controller.cpp
 gui_manager/CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controller.cpp.o: gui_manager/CMakeFiles/lvglsim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object gui_manager/CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controller.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object gui_manager/CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controller.cpp.o"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gui_manager/CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controller.cpp.o -MF CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controller.cpp.o.d -o CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controller.cpp.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/controller/src/liveview_controller.cpp
 
 gui_manager/CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controller.cpp.i: cmake_force
@@ -243,7 +257,7 @@ gui_manager/CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controll
 gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.o: gui_manager/CMakeFiles/lvglsim.dir/flags.make
 gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/view/src/gui_liveview.cpp
 gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.o: gui_manager/CMakeFiles/lvglsim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.o"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.o -MF CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.o.d -o CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/view/src/gui_liveview.cpp
 
 gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.i: cmake_force
@@ -254,10 +268,24 @@ gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.s: cma
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.s"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/view/src/gui_liveview.cpp -o CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.s
 
+gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.o: gui_manager/CMakeFiles/lvglsim.dir/flags.make
+gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/view/src/gui_video_frame_canvas.cpp
+gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.o: gui_manager/CMakeFiles/lvglsim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.o"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.o -MF CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.o.d -o CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/view/src/gui_video_frame_canvas.cpp
+
+gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.i"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/view/src/gui_video_frame_canvas.cpp > CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.i
+
+gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.s"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/view/src/gui_video_frame_canvas.cpp -o CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.s
+
 gui_manager/CMakeFiles/lvglsim.dir/src/main.cpp.o: gui_manager/CMakeFiles/lvglsim.dir/flags.make
 gui_manager/CMakeFiles/lvglsim.dir/src/main.cpp.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/main.cpp
 gui_manager/CMakeFiles/lvglsim.dir/src/main.cpp.o: gui_manager/CMakeFiles/lvglsim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object gui_manager/CMakeFiles/lvglsim.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object gui_manager/CMakeFiles/lvglsim.dir/src/main.cpp.o"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gui_manager/CMakeFiles/lvglsim.dir/src/main.cpp.o -MF CMakeFiles/lvglsim.dir/src/main.cpp.o.d -o CMakeFiles/lvglsim.dir/src/main.cpp.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/main.cpp
 
 gui_manager/CMakeFiles/lvglsim.dir/src/main.cpp.i: cmake_force
@@ -268,8 +296,37 @@ gui_manager/CMakeFiles/lvglsim.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lvglsim.dir/src/main.cpp.s"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/main.cpp -o CMakeFiles/lvglsim.dir/src/main.cpp.s
 
+gui_manager/CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.o: gui_manager/CMakeFiles/lvglsim.dir/flags.make
+gui_manager/CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/navibar/controller/src/gui_navibar_controller.cpp
+gui_manager/CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.o: gui_manager/CMakeFiles/lvglsim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object gui_manager/CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.o"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gui_manager/CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.o -MF CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.o.d -o CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/navibar/controller/src/gui_navibar_controller.cpp
+
+gui_manager/CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.i"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/navibar/controller/src/gui_navibar_controller.cpp > CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.i
+
+gui_manager/CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.s"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/navibar/controller/src/gui_navibar_controller.cpp -o CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.s
+
+gui_manager/CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.o: gui_manager/CMakeFiles/lvglsim.dir/flags.make
+gui_manager/CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.o: /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/navibar/view/src/gui_navibar_view.cpp
+gui_manager/CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.o: gui_manager/CMakeFiles/lvglsim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object gui_manager/CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.o"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gui_manager/CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.o -MF CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.o.d -o CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.o -c /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/navibar/view/src/gui_navibar_view.cpp
+
+gui_manager/CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.i"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/navibar/view/src/gui_navibar_view.cpp > CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.i
+
+gui_manager/CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.s"
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/navibar/view/src/gui_navibar_view.cpp -o CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.s
+
 # Object files for target lvglsim
 lvglsim_OBJECTS = \
+"CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.o" \
 "CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.o" \
 "CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.o" \
 "CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o" \
@@ -283,11 +340,15 @@ lvglsim_OBJECTS = \
 "CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o" \
 "CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controller.cpp.o" \
 "CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.o" \
-"CMakeFiles/lvglsim.dir/src/main.cpp.o"
+"CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.o" \
+"CMakeFiles/lvglsim.dir/src/main.cpp.o" \
+"CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.o" \
+"CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.o"
 
 # External object files for target lvglsim
 lvglsim_EXTERNAL_OBJECTS =
 
+bin/lvglsim: gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_datamng.cpp.o
 bin/lvglsim: gui_manager/CMakeFiles/lvglsim.dir/src/IpcUtility/src/gui_message_ctrl.cpp.o
 bin/lvglsim: gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/drm.c.o
 bin/lvglsim: gui_manager/CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o
@@ -301,7 +362,10 @@ bin/lvglsim: gui_manager/CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o
 bin/lvglsim: gui_manager/CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o
 bin/lvglsim: gui_manager/CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controller.cpp.o
 bin/lvglsim: gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_liveview.cpp.o
+bin/lvglsim: gui_manager/CMakeFiles/lvglsim.dir/src/liveview/view/src/gui_video_frame_canvas.cpp.o
 bin/lvglsim: gui_manager/CMakeFiles/lvglsim.dir/src/main.cpp.o
+bin/lvglsim: gui_manager/CMakeFiles/lvglsim.dir/src/navibar/controller/src/gui_navibar_controller.cpp.o
+bin/lvglsim: gui_manager/CMakeFiles/lvglsim.dir/src/navibar/view/src/gui_navibar_view.cpp.o
 bin/lvglsim: gui_manager/CMakeFiles/lvglsim.dir/build.make
 bin/lvglsim: gui_manager/liblvgl_linux.a
 bin/lvglsim: gui_manager/lvgl/lib/liblvgl.a
@@ -314,7 +378,7 @@ bin/lvglsim: gui_manager/lvgl/lib/liblvgl_thorvg.a
 bin/lvglsim: gui_manager/lvgl/lib/liblvgl_examples.a
 bin/lvglsim: gui_manager/lvgl/lib/liblvgl_demos.a
 bin/lvglsim: gui_manager/CMakeFiles/lvglsim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable ../bin/lvglsim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable ../bin/lvglsim"
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build/gui_manager && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lvglsim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

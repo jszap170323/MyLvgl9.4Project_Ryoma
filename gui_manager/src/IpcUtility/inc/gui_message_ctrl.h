@@ -16,8 +16,8 @@ class GuiMessageCtrl {
     ~GuiMessageCtrl();
     bool start();
 
-    bool sendMsgToMmed(long mtype, uint32_t cmd, const void *payload,
-                       uint32_t payload_len);
+    bool sendMsgToMmed(long mtype, uint32_t cmd_type, uint32_t cmd,
+                       const void *payload, uint32_t payload_len);
 
   private:
     void receiveUiMessage();

@@ -46,9 +46,9 @@ void MmedMessageCtrl::receiveUiMessage() {
 bool MmedMessageCtrl::sendMsgToUI(long mtype, uint32_t cmd, const void *payload,
                                   uint32_t payload_len) {
 
-    m_mmed_to_ui_msg_queue.sendCommand(mtype, // mtype
-                                       cmd,   // cmd
-                                       payload, payload_len);
+    // m_mmed_to_ui_msg_queue.sendCommand(mtype, // mtype
+    //                                    cmd,   // cmd
+    //                                    payload, payload_len);
 
     return true;
 }

@@ -5,9 +5,6 @@ GuiMessageCtrl::GuiMessageCtrl() {
     // m_mmed_to_ui_msg_queue.createMessageQueue(multimedia_to_ui, 512, 1024);
     m_ui_to_mmed_msg_queue.createMsgQueue(ui_to_multimedia_ipc_key);
     m_mmed_to_ui_msg_queue.createMsgQueue(multimedia_to_ui_ipc_key);
-
-    int value = 123;
-    sendMsgToMmed(1, 10, &value, 4);
 }
 
 GuiMessageCtrl::~GuiMessageCtrl() {}
@@ -33,11 +30,12 @@ void GuiMessageCtrl::receiveUiMessage() {
     }
 }
 
-bool GuiMessageCtrl::sendMsgToMmed(long mtype, uint32_t cmd,
+bool GuiMessageCtrl::sendMsgToMmed(long mtype, uint32_t cmd_type, uint32_t cmd,
                                    const void *payload, uint32_t payload_len) {
 
     m_ui_to_mmed_msg_queue.sendCommand(mtype, // mtype
-                                       cmd,   // cmd
+                                       cmd_type,
+                                       cmd, // cmd
                                        payload, payload_len);
 
     return true;

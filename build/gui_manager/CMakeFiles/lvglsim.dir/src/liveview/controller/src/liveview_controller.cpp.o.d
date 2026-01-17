@@ -3,6 +3,7 @@ gui_manager/CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controll
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/stdc-predef.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/controller/inc/liveview_controller.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/core/inc/gui_base_controller.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/IpcUtility/inc/gui_datamng.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/IpcUtility/inc/gui_message_ctrl.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/inc/ipc_message_queue.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/inc/ipc_ui_multimedia_command.h \
@@ -190,8 +191,13 @@ gui_manager/CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controll
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/limits \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/ctime \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/bits/parse_numbers.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/IpcUtility/inc/gui_message_ctrl.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/view/inc/gui_liveview.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/core/inc/gui_base_view.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/core/inc/gui_core_def.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/atomic \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/semaphore.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/semaphore.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/lvgl.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/lv_version.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/src/lv_init.h \
@@ -631,4 +637,20 @@ gui_manager/CMakeFiles/lvglsim.dir/src/liveview/controller/src/liveview_controll
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/src/lv_api_map_v9_2.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/src/lv_api_map_v9_3.h \
  /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/lvgl/src/lv_api_map_v9_4.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/controller/inc/gui_event_liveview.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/view/inc/gui_video_frame_canvas.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/liveview/controller/inc/gui_event_frame.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/inc/ipc_shared_memory.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/sys/mman.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/mman.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/mman-linux.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/cstring \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/mutex \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/common/inc/lock.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/deque \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/bits/stl_deque.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/bits/deque.tcc \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/navibar/controller/inc/gui_navibar_controller.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/navibar/view/inc/gui_navibar_view.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/gui_manager/src/navibar/controller/inc/gui_event_navibar.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/sys/reboot.h

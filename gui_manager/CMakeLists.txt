@@ -379,6 +379,8 @@ target_include_directories(lvglsim PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/src/IpcUtility/inc
 	${CMAKE_CURRENT_SOURCE_DIR}/src/liveview/controller/inc
 	${CMAKE_CURRENT_SOURCE_DIR}/src/liveview/view/inc
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/navibar/controller/inc
+	${CMAKE_CURRENT_SOURCE_DIR}/src/navibar/view/inc
     ${PKG_CONFIG_INC})
 
 # Repeat lvgl_linux to resolve circular dependency with lvgl
