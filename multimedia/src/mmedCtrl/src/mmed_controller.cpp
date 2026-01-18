@@ -101,6 +101,7 @@ bool MmedCtroller::handleSetParamsCommand(uint32_t cmd, void *args) {
             // ⭐ 直接从 data[0] 读取，不需要 +16 偏移了！
             memcpy(&offset_x, pMsg->data, sizeof(uint32_t));
             printf("mmed SetPreviewPixesMove offset_x = %d\n", offset_x);
+            m_pipe_manager->setPreviewOffsetX(offset_x);
         }
         break;
     }

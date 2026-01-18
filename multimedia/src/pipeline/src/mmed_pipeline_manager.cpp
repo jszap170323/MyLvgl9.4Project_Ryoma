@@ -211,7 +211,7 @@ static GstFlowReturn on_new_sample(GstAppSink *sink, gpointer user_data) {
         // map.data  → 像素指针
         // map.size  → 字节数
 
-        // std::cout << "map.size = " << map.size << std::endl;
+        std::cout << "map.size = " << map.size << std::endl;
         shm->write(map.data, map.size);
 
         gst_buffer_unmap(buffer, &map);
@@ -314,36 +314,75 @@ void MmedPipelineManager::createPipeline() {
 
 // Preview branch
 void MmedPipelineManager::attachPreviewBranch() {
-    if (!m_pipeline || m_tee_preview_pad) {
+    if (!m_pipeline || m_tee_preview_pad)
         return;
-    }
 
+    // 创建元素
     m_q_preview = gst_element_factory_make("queue", "q_preview");
+    m_crop_preview = gst_element_factory_make("videocrop", "crop_preview");
+    m_videobox_preview =
+        gst_element_factory_make("videobox", "videobox_preview");
     m_convert_preview =
         gst_element_factory_make("videoconvert", "convert_preview");
     m_appsink = gst_element_factory_make("appsink", "appsink");
 
+    // m_caps_preview = gst_element_factory_make("capsfilter", "caps_preview");
+
+    // GstCaps *caps = gst_caps_new_simple("video/x-raw", "format",
+    // G_TYPE_STRING,
+    //                                     "RGB16", "width", G_TYPE_INT, 1024,
+    //                                     "height", G_TYPE_INT, 600, NULL);
+
+    // g_object_set(m_caps_preview, "caps", caps, NULL);
+    // gst_caps_unref(caps);
+
+    if (!m_q_preview || !m_crop_preview || !m_videobox_preview ||
+        !m_convert_preview || !m_appsink) {
+        g_printerr("Failed to create preview elements\n");
+        return;
+    }
+
+    // // 启动必须为 0
+    // g_object_set(m_crop_preview, "left", 0, "right", 0, NULL);
+
+    // g_object_set(m_videobox_preview, "left", 0, "right", 0, NULL);
+
+    // 添加到 pipeline
     gst_bin_add_many(GST_BIN(m_pipeline), m_q_preview, m_convert_preview,
                      m_appsink, NULL);
-    gst_element_link_many(m_q_preview, m_convert_preview, m_appsink, NULL);
 
+    // 链接顺序：queue -> crop -> videobox -> convert -> appsink
+    if (!gst_element_link_many(m_q_preview, m_convert_preview, m_appsink,
+                               NULL)) {
+        g_printerr("Failed to link preview branch\n");
+        return;
+    }
+
+    // 获取 tee request pad
     m_tee_preview_pad = gst_element_get_request_pad(m_tee, "src_%u");
     GstPad *sink_pad = gst_element_get_static_pad(m_q_preview, "sink");
     if (gst_pad_link(m_tee_preview_pad, sink_pad) != GST_PAD_LINK_OK)
-        g_printerr("Tee link preview failed\n");
+        g_printerr("Failed to link tee to preview queue\n");
     gst_object_unref(sink_pad);
 
+    // 设置 queue 属性（防止阻塞）
     g_object_set(m_q_preview, "leaky", 2, "max-size-buffers", 1, NULL);
 
+    // appsink 属性
     g_object_set(m_appsink, "emit-signals", TRUE, "sync", FALSE, "max-buffers",
                  1, "drop", TRUE, NULL);
 
+    // appsink 回调
     GstAppSinkCallbacks cb = {};
     cb.new_sample = on_new_sample;
     gst_app_sink_set_callbacks(GST_APP_SINK(m_appsink), &cb, m_shm, nullptr);
 
+    // 同步状态
     gst_element_sync_state_with_parent(m_q_preview);
+    // gst_element_sync_state_with_parent(m_crop_preview);
+    // gst_element_sync_state_with_parent(m_videobox_preview);
     gst_element_sync_state_with_parent(m_convert_preview);
+    // gst_element_sync_state_with_parent(m_caps_preview);
     gst_element_sync_state_with_parent(m_appsink);
 
     g_print("Preview branch attached\n");
@@ -614,4 +653,21 @@ void MmedPipelineManager::destroyPipeline() {
 
     gst_object_unref(m_pipeline);
     m_pipeline = nullptr;
+}
+void MmedPipelineManager::setPreviewOffsetX(uint32_t offset_x) {
+    if (!m_crop_preview || !m_videobox_preview)
+        return;
+
+    // 对齐到 4 的倍数
+    int offset = offset_x & ~3;
+
+    // videocrop 裁掉左侧 offset 像素
+    g_object_set(m_crop_preview, "left", offset, NULL);
+
+    // videobox 在右侧补回相同的像素，实现平移
+    g_object_set(m_videobox_preview, "right", -offset, NULL);
+
+    // 可选：打印调试信息
+    g_print("Preview offset set: left crop=%d, right videobox=%d\n", offset,
+            -offset);
 }

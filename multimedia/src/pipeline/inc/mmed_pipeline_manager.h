@@ -56,6 +56,7 @@ class MmedPipelineManager {
     void detachPhotoBranch();
     void attachVideoBranch();
     void detachVideoBranch();
+    void setPreviewOffsetX(uint32_t offset_x);
 
     GstPad *m_photo_probe_pad = nullptr;
     gulong m_photo_probe_id = 0;
@@ -92,6 +93,10 @@ class MmedPipelineManager {
     GstElement *m_appsink = nullptr;
     GstElement *m_convert_preview = nullptr;
     GstElement *m_convert = nullptr;
+    GstElement *m_crop_preview = nullptr;
+    GstElement *m_videobox_preview = nullptr;
+    GstElement *m_caps_preview = nullptr;
+    GstElement *m_caps_rgb = nullptr;
 
     GstPad *m_tee_preview_pad = nullptr;
 
