@@ -271,6 +271,30 @@ src/pipeline/src/mmed_pipeline_manager.cpp.s:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.s
 .PHONY : src/pipeline/src/mmed_pipeline_manager.cpp.s
 
+src/pipeline/src/mmed_setproperty_ctrl.o: src/pipeline/src/mmed_setproperty_ctrl.cpp.o
+.PHONY : src/pipeline/src/mmed_setproperty_ctrl.o
+
+# target to build an object file
+src/pipeline/src/mmed_setproperty_ctrl.cpp.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_setproperty_ctrl.cpp.o
+.PHONY : src/pipeline/src/mmed_setproperty_ctrl.cpp.o
+
+src/pipeline/src/mmed_setproperty_ctrl.i: src/pipeline/src/mmed_setproperty_ctrl.cpp.i
+.PHONY : src/pipeline/src/mmed_setproperty_ctrl.i
+
+# target to preprocess a source file
+src/pipeline/src/mmed_setproperty_ctrl.cpp.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_setproperty_ctrl.cpp.i
+.PHONY : src/pipeline/src/mmed_setproperty_ctrl.cpp.i
+
+src/pipeline/src/mmed_setproperty_ctrl.s: src/pipeline/src/mmed_setproperty_ctrl.cpp.s
+.PHONY : src/pipeline/src/mmed_setproperty_ctrl.s
+
+# target to generate assembly for a file
+src/pipeline/src/mmed_setproperty_ctrl.cpp.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_setproperty_ctrl.cpp.s
+.PHONY : src/pipeline/src/mmed_setproperty_ctrl.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -296,6 +320,9 @@ help:
 	@echo "... src/pipeline/src/mmed_pipeline_manager.o"
 	@echo "... src/pipeline/src/mmed_pipeline_manager.i"
 	@echo "... src/pipeline/src/mmed_pipeline_manager.s"
+	@echo "... src/pipeline/src/mmed_setproperty_ctrl.o"
+	@echo "... src/pipeline/src/mmed_setproperty_ctrl.i"
+	@echo "... src/pipeline/src/mmed_setproperty_ctrl.s"
 .PHONY : help
 
 

@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.o.d"
   "CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.o"
   "CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.o.d"
+  "CMakeFiles/multimedia.dir/src/pipeline/src/mmed_setproperty_ctrl.cpp.o"
+  "CMakeFiles/multimedia.dir/src/pipeline/src/mmed_setproperty_ctrl.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
