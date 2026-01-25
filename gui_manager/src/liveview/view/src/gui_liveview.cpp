@@ -86,3 +86,10 @@ void GUI_Liveview::handleUIEvent(lv_event_t *event) {
         break;
     }
 }
+
+void GUI_Liveview::updateOffset(int32_t offset_pixels) {
+
+    if (m_video_frame_canvas) {
+        m_video_frame_canvas->updateOffset(offset_pixels);
+    }
+}

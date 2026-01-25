@@ -17,8 +17,12 @@ void GUI_NavibarController::foldNavibar() { m_navibar_view->foldNavibar(); }
 void GUI_NavibarController::handleEvent(const GUI_NavibarEvent &e) {
     switch (e.type) {
     case GUI_NavibarEventType::PixesMove: {
-        printf("PixesMove=================== offsetx = %d\n", e.value);
-        GUI_DataMng::getInstance()->setFrameMovePixes(e.value);
+
+        // GUI_DataMng::getInstance()->setFrameMovePixes(e.value);
+        if (m_frme_move_callback) {
+            printf("PixesMove=================== offsetx = %d\n", e.value);
+            m_frme_move_callback(e.value);
+        }
 
         break;
     }

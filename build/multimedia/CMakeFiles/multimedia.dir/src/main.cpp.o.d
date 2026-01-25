@@ -383,7 +383,21 @@ multimedia/CMakeFiles/multimedia.dir/src/main.cpp.o: \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/gstreamer-1.0/gst/app/gstappsink.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/gstreamer-1.0/gst/base/gstbasesink.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/thread \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/unordered_map \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/bits/hashtable.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/bits/hashtable_policy.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/bits/unordered_map.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/atomic \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/semaphore.h \
  /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/bits/semaphore.h \
- /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/IpcUtility/inc/mmed_message_ctrl.h
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/IpcUtility/inc/mmed_message_ctrl.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/communication/inc/ipc_ui_multimedia_command.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/inc/mmed_state_matchine_interface.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/settingmanager/inc/mmed_setting_manager.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/settingmanager/inc/mmed_setproperty_ctrl.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/map \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/bits/stl_tree.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/bits/stl_map.h \
+ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/bits/stl_multimap.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/settingmanager/inc/mmed_system_setting_ctrl.h \
+ /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/multimedia/src/statematchine/inc/mmed_statematchine.h

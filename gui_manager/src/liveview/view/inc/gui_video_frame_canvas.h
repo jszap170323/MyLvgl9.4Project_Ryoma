@@ -16,6 +16,7 @@ class GUI_VideoFrameCanvas : public GUI_BaseView<GUI_FrameEvent> {
     void video_thread_func();
     void refresh_timer_cb(lv_timer_t *timer);
     void pushFrame(uint8_t *buffer, uint32_t buf_size);
+    void updateOffset(int32_t offset_pixels);
 
     uint8_t *video_buf = nullptr;   // 视频缓冲区
     uint8_t *display_buf = nullptr; // 显示缓冲区（双缓冲）

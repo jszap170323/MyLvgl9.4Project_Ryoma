@@ -30,16 +30,36 @@
 // };
 
 #include <chrono>
+#include <cstdint>
 #include <gst/app/gstappsink.h>
 #include <gst/gst.h>
 #include <iostream>
 #include <string>
 #include <thread>
+#include <unordered_map>
+
+#include "ipc_message_queue.h"
 
 class IpcSharedMemory;
 
 class MmedPipelineManager {
+
   public:
+    using Handler = std::function<bool(void *)>;
+
+    void addHandler(uint32_t event, Handler h) {
+        m_handlers[event] = std::move(h);
+    }
+
+    bool canHandle(uint32_t event) const {
+        printf("canHandle event = %d\n", event);
+        return m_handlers.find(event) != m_handlers.end();
+    }
+
+    bool handle(uint32_t event, void *param) {
+        return m_handlers.at(event)(param);
+    }
+
     MmedPipelineManager();
     ~MmedPipelineManager();
 
@@ -130,6 +150,9 @@ class MmedPipelineManager {
     static GstPadProbeReturn video_block_probe_callback(GstPad *pad,
                                                         GstPadProbeInfo *info,
                                                         gpointer user_data);
+
+  private:
+    std::unordered_map<uint32_t, Handler> m_handlers;
 };
 
 #endif /*  _MMED_PIPELINE_MANAGER_H*/

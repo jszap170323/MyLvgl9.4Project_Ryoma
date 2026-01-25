@@ -35,6 +35,10 @@ void GUI_NaviBarView::onDrag(lv_event_t *e) {
     if (code == LV_EVENT_PRESSED) {
         press_x_ = p.x;
         start_width_ = panel_width_;
+
+        // 或者直接停止事件冒泡
+        // lv_event_stop_bubbling(e);
+
     } else if (code == LV_EVENT_PRESSING) {
         int delta = press_x_ - p.x;
         int new_width = start_width_ + delta;

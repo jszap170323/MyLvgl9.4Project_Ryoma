@@ -2,7 +2,9 @@
 #define _MMED_MESSAGE_CTRL_H
 
 #include "ipc_message_queue.h"
+#include "ipc_ui_multimedia_command.h"
 #include "mmed_controller.h"
+#include "mmed_state_matchine_interface.h"
 #include <iostream>
 #include <thread>
 
@@ -12,7 +14,8 @@ const std::string multimedia_to_ui = "/multimedia_to_ui_msg_queue";
 class MmedMessageCtrl {
 
   public:
-    MmedMessageCtrl(MmedCtroller *controller);
+    // MmedMessageCtrl(MmedCtroller *controller);
+    MmedMessageCtrl(MmedStateMatchineInterface &state_matchine);
     ~MmedMessageCtrl();
     bool start();
 
@@ -26,6 +29,7 @@ class MmedMessageCtrl {
     IpcMessageQueue m_mmed_to_ui_msg_queue;
     std::thread m_receive_thread_t;
     MmedCtroller *m_mmed_controller;
+    MmedStateMatchineInterface &m_state_matchine;
 };
 
 #endif /*  _MMED_MESSAGE_CTRL_H*/

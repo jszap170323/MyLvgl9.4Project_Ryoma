@@ -7,7 +7,7 @@ enum class GUI_NavibarEventType {
 
 typedef struct {
     GUI_NavibarEventType type;
-    int value; // 可选
+    int32_t value; // 可选
 } GUI_NavibarEvent;
 
 #endif

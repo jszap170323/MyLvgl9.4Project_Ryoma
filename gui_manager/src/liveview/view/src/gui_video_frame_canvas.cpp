@@ -110,3 +110,11 @@ void GUI_VideoFrameCanvas::pushFrame(uint8_t *buffer, uint32_t buf_size) {
 
     frame_queue.push_front(std::move(frame));
 }
+
+void GUI_VideoFrameCanvas::updateOffset(int32_t offset_pixels) {
+    printf("-------------------------------------aadaafa");
+    // 更新Canvas位置（向左移动）
+    lv_obj_set_pos(canvas, -offset_pixels, 0);
+
+    printf("Set offset to %d pixels\n", offset_pixels);
+}

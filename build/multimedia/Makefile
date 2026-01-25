@@ -271,29 +271,101 @@ src/pipeline/src/mmed_pipeline_manager.cpp.s:
 	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.s
 .PHONY : src/pipeline/src/mmed_pipeline_manager.cpp.s
 
-src/pipeline/src/mmed_setproperty_ctrl.o: src/pipeline/src/mmed_setproperty_ctrl.cpp.o
-.PHONY : src/pipeline/src/mmed_setproperty_ctrl.o
+src/settingmanager/src/mmed_setproperty_ctrl.o: src/settingmanager/src/mmed_setproperty_ctrl.cpp.o
+.PHONY : src/settingmanager/src/mmed_setproperty_ctrl.o
 
 # target to build an object file
-src/pipeline/src/mmed_setproperty_ctrl.cpp.o:
-	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_setproperty_ctrl.cpp.o
-.PHONY : src/pipeline/src/mmed_setproperty_ctrl.cpp.o
+src/settingmanager/src/mmed_setproperty_ctrl.cpp.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/settingmanager/src/mmed_setproperty_ctrl.cpp.o
+.PHONY : src/settingmanager/src/mmed_setproperty_ctrl.cpp.o
 
-src/pipeline/src/mmed_setproperty_ctrl.i: src/pipeline/src/mmed_setproperty_ctrl.cpp.i
-.PHONY : src/pipeline/src/mmed_setproperty_ctrl.i
+src/settingmanager/src/mmed_setproperty_ctrl.i: src/settingmanager/src/mmed_setproperty_ctrl.cpp.i
+.PHONY : src/settingmanager/src/mmed_setproperty_ctrl.i
 
 # target to preprocess a source file
-src/pipeline/src/mmed_setproperty_ctrl.cpp.i:
-	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_setproperty_ctrl.cpp.i
-.PHONY : src/pipeline/src/mmed_setproperty_ctrl.cpp.i
+src/settingmanager/src/mmed_setproperty_ctrl.cpp.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/settingmanager/src/mmed_setproperty_ctrl.cpp.i
+.PHONY : src/settingmanager/src/mmed_setproperty_ctrl.cpp.i
 
-src/pipeline/src/mmed_setproperty_ctrl.s: src/pipeline/src/mmed_setproperty_ctrl.cpp.s
-.PHONY : src/pipeline/src/mmed_setproperty_ctrl.s
+src/settingmanager/src/mmed_setproperty_ctrl.s: src/settingmanager/src/mmed_setproperty_ctrl.cpp.s
+.PHONY : src/settingmanager/src/mmed_setproperty_ctrl.s
 
 # target to generate assembly for a file
-src/pipeline/src/mmed_setproperty_ctrl.cpp.s:
-	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/pipeline/src/mmed_setproperty_ctrl.cpp.s
-.PHONY : src/pipeline/src/mmed_setproperty_ctrl.cpp.s
+src/settingmanager/src/mmed_setproperty_ctrl.cpp.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/settingmanager/src/mmed_setproperty_ctrl.cpp.s
+.PHONY : src/settingmanager/src/mmed_setproperty_ctrl.cpp.s
+
+src/settingmanager/src/mmed_setting_manager.o: src/settingmanager/src/mmed_setting_manager.cpp.o
+.PHONY : src/settingmanager/src/mmed_setting_manager.o
+
+# target to build an object file
+src/settingmanager/src/mmed_setting_manager.cpp.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/settingmanager/src/mmed_setting_manager.cpp.o
+.PHONY : src/settingmanager/src/mmed_setting_manager.cpp.o
+
+src/settingmanager/src/mmed_setting_manager.i: src/settingmanager/src/mmed_setting_manager.cpp.i
+.PHONY : src/settingmanager/src/mmed_setting_manager.i
+
+# target to preprocess a source file
+src/settingmanager/src/mmed_setting_manager.cpp.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/settingmanager/src/mmed_setting_manager.cpp.i
+.PHONY : src/settingmanager/src/mmed_setting_manager.cpp.i
+
+src/settingmanager/src/mmed_setting_manager.s: src/settingmanager/src/mmed_setting_manager.cpp.s
+.PHONY : src/settingmanager/src/mmed_setting_manager.s
+
+# target to generate assembly for a file
+src/settingmanager/src/mmed_setting_manager.cpp.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/settingmanager/src/mmed_setting_manager.cpp.s
+.PHONY : src/settingmanager/src/mmed_setting_manager.cpp.s
+
+src/settingmanager/src/mmed_system_setting_ctrl.o: src/settingmanager/src/mmed_system_setting_ctrl.cpp.o
+.PHONY : src/settingmanager/src/mmed_system_setting_ctrl.o
+
+# target to build an object file
+src/settingmanager/src/mmed_system_setting_ctrl.cpp.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/settingmanager/src/mmed_system_setting_ctrl.cpp.o
+.PHONY : src/settingmanager/src/mmed_system_setting_ctrl.cpp.o
+
+src/settingmanager/src/mmed_system_setting_ctrl.i: src/settingmanager/src/mmed_system_setting_ctrl.cpp.i
+.PHONY : src/settingmanager/src/mmed_system_setting_ctrl.i
+
+# target to preprocess a source file
+src/settingmanager/src/mmed_system_setting_ctrl.cpp.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/settingmanager/src/mmed_system_setting_ctrl.cpp.i
+.PHONY : src/settingmanager/src/mmed_system_setting_ctrl.cpp.i
+
+src/settingmanager/src/mmed_system_setting_ctrl.s: src/settingmanager/src/mmed_system_setting_ctrl.cpp.s
+.PHONY : src/settingmanager/src/mmed_system_setting_ctrl.s
+
+# target to generate assembly for a file
+src/settingmanager/src/mmed_system_setting_ctrl.cpp.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/settingmanager/src/mmed_system_setting_ctrl.cpp.s
+.PHONY : src/settingmanager/src/mmed_system_setting_ctrl.cpp.s
+
+src/statematchine/src/mmed_statematchine.o: src/statematchine/src/mmed_statematchine.cpp.o
+.PHONY : src/statematchine/src/mmed_statematchine.o
+
+# target to build an object file
+src/statematchine/src/mmed_statematchine.cpp.o:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/statematchine/src/mmed_statematchine.cpp.o
+.PHONY : src/statematchine/src/mmed_statematchine.cpp.o
+
+src/statematchine/src/mmed_statematchine.i: src/statematchine/src/mmed_statematchine.cpp.i
+.PHONY : src/statematchine/src/mmed_statematchine.i
+
+# target to preprocess a source file
+src/statematchine/src/mmed_statematchine.cpp.i:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/statematchine/src/mmed_statematchine.cpp.i
+.PHONY : src/statematchine/src/mmed_statematchine.cpp.i
+
+src/statematchine/src/mmed_statematchine.s: src/statematchine/src/mmed_statematchine.cpp.s
+.PHONY : src/statematchine/src/mmed_statematchine.s
+
+# target to generate assembly for a file
+src/statematchine/src/mmed_statematchine.cpp.s:
+	cd /home/alientek/lvgl/MyLvgl9.4Project_Ryoma/build && $(MAKE) $(MAKESILENT) -f multimedia/CMakeFiles/multimedia.dir/build.make multimedia/CMakeFiles/multimedia.dir/src/statematchine/src/mmed_statematchine.cpp.s
+.PHONY : src/statematchine/src/mmed_statematchine.cpp.s
 
 # Help Target
 help:
@@ -320,9 +392,18 @@ help:
 	@echo "... src/pipeline/src/mmed_pipeline_manager.o"
 	@echo "... src/pipeline/src/mmed_pipeline_manager.i"
 	@echo "... src/pipeline/src/mmed_pipeline_manager.s"
-	@echo "... src/pipeline/src/mmed_setproperty_ctrl.o"
-	@echo "... src/pipeline/src/mmed_setproperty_ctrl.i"
-	@echo "... src/pipeline/src/mmed_setproperty_ctrl.s"
+	@echo "... src/settingmanager/src/mmed_setproperty_ctrl.o"
+	@echo "... src/settingmanager/src/mmed_setproperty_ctrl.i"
+	@echo "... src/settingmanager/src/mmed_setproperty_ctrl.s"
+	@echo "... src/settingmanager/src/mmed_setting_manager.o"
+	@echo "... src/settingmanager/src/mmed_setting_manager.i"
+	@echo "... src/settingmanager/src/mmed_setting_manager.s"
+	@echo "... src/settingmanager/src/mmed_system_setting_ctrl.o"
+	@echo "... src/settingmanager/src/mmed_system_setting_ctrl.i"
+	@echo "... src/settingmanager/src/mmed_system_setting_ctrl.s"
+	@echo "... src/statematchine/src/mmed_statematchine.o"
+	@echo "... src/statematchine/src/mmed_statematchine.i"
+	@echo "... src/statematchine/src/mmed_statematchine.s"
 .PHONY : help
 
 

@@ -5,6 +5,8 @@
 
 #include "mmed_controller.h"
 #include "mmed_message_ctrl.h"
+#include "mmed_setting_manager.h"
+#include "mmed_statematchine.h"
 
 int main() {
 
@@ -25,12 +27,23 @@ int main() {
     printf("This program is linked against GStreamer %d.%d.%d %s\n", major,
            minor, micro, nano_str);
 
+    // MmedSettingManager setting;
+    // MmedPipelineManager pipeline;
+    // MmedCtroller mmed_controller(&pipeline);
+    // pipeline.start();
+    // mmed_controller.start();
+    // MmedStateMatchine state_matchine(pipeline, setting);
+    // MmedMessageCtrl msg_ctrl(&mmed_controller);
+    // msg_ctrl.start();
+
     MmedPipelineManager pipeline;
-    MmedCtroller mmed_controller(&pipeline);
-    pipeline.start();
-    mmed_controller.start();
-    MmedMessageCtrl msg_ctrl(&mmed_controller);
-    msg_ctrl.start();
+    MmedSettingManager setting;
+    MmedStateMatchine fsm(pipeline, setting);
+    MmedMessageCtrl msg_ctrl(fsm);
+
+    fsm.initlize();   // FSM ready
+    pipeline.start(); // 开始干活
+    msg_ctrl.start(); // 开始收 UI
 
     while (1) {
         usleep(1000);

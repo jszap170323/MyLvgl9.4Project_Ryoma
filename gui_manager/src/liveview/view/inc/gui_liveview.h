@@ -12,6 +12,7 @@ class GUI_Liveview : public GUI_BaseView<GUI_LiveviewEvent> {
     ~GUI_Liveview();
 
     // virtual void setEventCallback(EventCallback cb);
+    void updateOffset(int32_t offset_pixels);
 
   private:
     void handleUIEvent(lv_event_t *event);

@@ -9,8 +9,14 @@ file(REMOVE_RECURSE
   "CMakeFiles/multimedia.dir/src/mmedCtrl/src/mmed_controller.cpp.o.d"
   "CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.o"
   "CMakeFiles/multimedia.dir/src/pipeline/src/mmed_pipeline_manager.cpp.o.d"
-  "CMakeFiles/multimedia.dir/src/pipeline/src/mmed_setproperty_ctrl.cpp.o"
-  "CMakeFiles/multimedia.dir/src/pipeline/src/mmed_setproperty_ctrl.cpp.o.d"
+  "CMakeFiles/multimedia.dir/src/settingmanager/src/mmed_setproperty_ctrl.cpp.o"
+  "CMakeFiles/multimedia.dir/src/settingmanager/src/mmed_setproperty_ctrl.cpp.o.d"
+  "CMakeFiles/multimedia.dir/src/settingmanager/src/mmed_setting_manager.cpp.o"
+  "CMakeFiles/multimedia.dir/src/settingmanager/src/mmed_setting_manager.cpp.o.d"
+  "CMakeFiles/multimedia.dir/src/settingmanager/src/mmed_system_setting_ctrl.cpp.o"
+  "CMakeFiles/multimedia.dir/src/settingmanager/src/mmed_system_setting_ctrl.cpp.o.d"
+  "CMakeFiles/multimedia.dir/src/statematchine/src/mmed_statematchine.cpp.o"
+  "CMakeFiles/multimedia.dir/src/statematchine/src/mmed_statematchine.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -14,6 +14,8 @@ class GUI_LiveviewController : public GUI_BaseController {
 
     void handleEvent(const GUI_LiveviewEvent &e);
 
+    void updateFrameOffset(int32_t offset_pixels);
+
   private:
     std::unique_ptr<GUI_NavibarController> m_navibar_controller;
 

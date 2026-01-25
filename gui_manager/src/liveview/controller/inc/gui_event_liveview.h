@@ -8,6 +8,7 @@ enum class GUI_LiveviewEventType {
     StopPreview,
     StartRecord,
     StopRecord,
+    MoveFramePixes,
 };
 
 typedef struct {
